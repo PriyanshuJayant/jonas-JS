@@ -17,9 +17,9 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
-  color: #444;
+  color: #efefef;
   /* background-color: #f3f3f3; */
-  background-color: #c9c9c9;
+  background-color: #000000;
 
   height: 100vh;
   padding: 2rem;
@@ -54,7 +54,7 @@ nav {
   width: 12rem;
   border-radius: 10rem;
   margin-right: 1rem;
-  color: inherit;
+  color: black;
   border: 1px solid #fff;
   transition: all 0.3s;
 }
@@ -96,7 +96,7 @@ nav {
   gap: 2rem;
 
   /* NOTE This creates the fade in/out anumation */
-  /* opacity: 0; */
+  opacity: 0;
   transition: all 1s;
 }
 
@@ -127,9 +127,11 @@ nav {
 /* MOVEMENTS */
 .movements {
   grid-row: 2 / span 3;
-  background-color: #fff;
+  background-color: #7d7d7d;
   border-radius: 1rem;
   overflow: scroll;
+  overflow-x: hidden;
+  /* overflow-y: hidden; */
 }
 
 .movements__row {

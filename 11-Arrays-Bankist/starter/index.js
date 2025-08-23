@@ -1,6 +1,3 @@
-let arr = ['a', 'b', 'c', 'd', 'e'];
-let arr2 = ['i', 'j', 'k', 'l', 'm'];
-
 // SLICE Method
 // console.log(arr.slice());
 
@@ -136,22 +133,120 @@ const kate = [4, 1, 15, 8, 3];
 // },0);
 // console.log(balance);
 
-const dogs = [5, 2, 4, 1, 15, 8, 3];
-const human = [];
+// const dogs = [5, 2, 4, 1, 15, 8, 3];
+// const human = [];
 
-const calcAverageHumanAge = function (ages) {
-    const humanAges = ages.map(age => age <= 2 ? 2 * age : 16 + age * 4);
-    console.log(humanAges);
-    const adults = humanAges.filter(age => age >= 18);
-    console.log(adults);
+// const calcAverageHumanAge = function (ages) {
+//     const humanAges = ages.map(age => age <= 2 ? 2 * age : 16 + age * 4);
+//     console.log(humanAges);
+//     const adults = humanAges.filter(age => age >= 18);
+//     console.log(adults);
+// }
+// // calcAverageHumanAge([5, 2, 4, 1, 15, 8, 3]);
 
-}
-// calcAverageHumanAge([5, 2, 4, 1, 15, 8, 3]);
+// const calcAverageHumanAge2 = (ages) => {
+//     const humanAge2 = ages
+//     .map((age) => age <= 2 ? 2 * age : 16 + age * 4)
+//     .filter((age) => age >= 18)
+//     .reduce((acc, age, i, arr) => acc + age/ arr.length, 0)
+//     console.log(humanAge2)
+// }
+// calcAverageHumanAge2([5, 2, 4, 1, 15, 8, 3]);
 
-const euroToUsd = 1.1;
+// const euroToUsd = 1.1;
 
-const totalDepositsInUSD = movements.filter(mov => mov > 0).map(mov => mov * euroToUsd).reduce((acc, mov) => acc + mov, 0);
-console.log(totalDepositsInUSD);
+// const totalDepositsInUSD = movements.filter(mov => mov > 0).map(mov => mov * euroToUsd).reduce((acc, mov) => acc + mov, 0);
+// // console.log(totalDepositsInUSD);
 
-const total = movements
-console.log(total);
+// const total = movements
+// // console.log(total);
+
+// const array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// const print = array
+//     .filter((current) => {return current % 2 === 0})
+//     .map((current, i, arr) => {return current * 2})
+//     .reduce((current, mov) => current + mov, 0);
+// // console.log(print);
+
+// const max = movements.reduce((acc, mov) => {
+//   if (acc > mov)
+//     return acc;
+//   else
+//     return mov;
+// },movements[0]);
+// // console.log(max);
+
+// const movements2 = [200, 450, -400, 3000, -650, -130, 70, 1300];
+// const filterMethod = movements2.find((mov) => mov < 0);
+// // console.log(filterMethod);
+
+// console.log(accounts);
+// const account = accounts.find((acc) => acc.owner == "Jessica Davis");
+// console.log(account);
+
+// let accountTest;
+// for(const acc of accounts){
+//   if (acc.owner === "Jessica Davis") {
+//     accountTest = acc;
+//     break;
+//   }
+// }
+// console.log(accountTest);
+
+// for (let i = 0; i < accounts.length; i++) {
+//   if (accounts[i].owner === "Jessica Davis") {
+//     console.log(accounts[i].pin);
+//     break;
+//   }
+// }
+
+// // const lastWithdrawal = movements.findLast((mov) => mov < 0);
+// // console.log(lastWithdrawal);
+
+// const latestLargeMovementIndex = movements.findLastIndex((mov) => 
+    //     Math.abs(mov) > 2000
+// )
+// console.log(latestLargeMovementIndex);
+// console.log(`Your Latest largest movement was ${movements.length - latestLargeMovementIndex - 1 } movements ago`);
+
+// console.log(movements);
+
+//Equality
+// console.log(movements.includes(-130));
+
+// //Condition
+// const anyDeposits = movements.some(mov => mov > 0);
+// console.log(anyDeposits);
+
+// Every checks condition for each element in a array
+// console.log(account4.movements.every(mov => mov > 0));
+
+// //Removes 1 level of Nested Loop
+// const arr = [[1,2,3], [4,5,6], 7,8];
+// console.log(arr.flat());
+
+// // Removes desired level of Nested Loop
+// const arrDeep = [[[1,2],3],[4,[5,6]],7,8];
+// console.log(arrDeep.flat(2));
+
+// const accountMovements = accounts.map(acc => acc.movements);
+// // console.log(accountMovements);
+
+// const allMovements = accountMovements.flat();
+
+// console.log(allMovements);
+// const totalBalance = allMovements.reduce((acc, mov) => acc + mov, 0);
+// console.log(totalBalance);
+
+const allMovements2 = accounts
+.map(acc => acc.movements)
+.flat()
+.reduce((acc, mov) => acc + mov, 0);
+
+console.log(allMovements2);
+
+const allMovements3 = accounts
+.flatMap(acc => acc.movements)
+.reduce((acc, mov) => acc + mov, 0);
+
+console.log(allMovements3);
