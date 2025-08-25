@@ -1,21 +1,22 @@
+const movements2 = [200, 450, -400, 3000, -650, -130, 70, 1300];
 // SLICE Method
-// console.log(arr.slice());
+// console.log(movements.slice());
 
 // SPLICE Method
 // console.log(arr.splice(-2));
 // console.log(arr);
 
-// REVERSE Method 
+// REVERSE Method
 // console.log(arr.reverse());
 // console.log(arr);
 
-// CONCAT 
+// CONCAT
 // const letter = arr.concat(arr2);
 // console.log(letter);
 
 // console.log([...arr,...arr2]);
 
-// JOIN 
+// JOIN
 // console.log(letter.join(' + '));
 
 // const arr = [23, 11, 64];
@@ -26,7 +27,6 @@
 
 // console.log('Nigga'.slice(-1));
 
-// const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
 
 // for (const [i, movement] of movements.entries()) {
 //   if (movement > 0) {
@@ -38,7 +38,7 @@
 
 // movements.forEach(function (movement, index, array) {
 //   if (movement > 0) {
-//     console.log(`Movement ${index + 1}: You Deposited ${movement}`);    
+//     console.log(`Movement ${index + 1}: You Deposited ${movement}`);
 //   } else {
 //     console.log(`You withdrew ${Math.abs(movement)}`);
 //   }
@@ -65,7 +65,6 @@ const kate = [4, 1, 15, 8, 3];
 
 // const juliaUpdated = julia.slice(0, 3);
 // // console.log(juliaUpdated);
-
 
 // const all = [...juliaUpdated, ...kate];
 // // console.log(all);
@@ -94,7 +93,6 @@ const kate = [4, 1, 15, 8, 3];
 // }
 // checkDogs([3, 5, 2, 12, 7], [4, 1, 15, 8, 3]);
 
-
 // const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
 // const euro = 1.1;
 
@@ -117,7 +115,6 @@ const kate = [4, 1, 15, 8, 3];
 //     }
 // });
 // console.log(movementDescriptions);
-
 
 // const deposits = movements.filter(function (mov) {
 //   return mov > 0
@@ -203,8 +200,8 @@ const kate = [4, 1, 15, 8, 3];
 // // const lastWithdrawal = movements.findLast((mov) => mov < 0);
 // // console.log(lastWithdrawal);
 
-// const latestLargeMovementIndex = movements.findLastIndex((mov) => 
-    //     Math.abs(mov) > 2000
+// const latestLargeMovementIndex = movements.findLastIndex((mov) =>
+//     Math.abs(mov) > 2000
 // )
 // console.log(latestLargeMovementIndex);
 // console.log(`Your Latest largest movement was ${movements.length - latestLargeMovementIndex - 1 } movements ago`);
@@ -238,15 +235,154 @@ const kate = [4, 1, 15, 8, 3];
 // const totalBalance = allMovements.reduce((acc, mov) => acc + mov, 0);
 // console.log(totalBalance);
 
-const allMovements2 = accounts
-.map(acc => acc.movements)
-.flat()
-.reduce((acc, mov) => acc + mov, 0);
+// const allMovements2 = accounts
+// .map(acc => acc.movements)
+// .flat()
+// .reduce((acc, mov) => acc + mov, 0);
 
-console.log(allMovements2);
+// console.log(allMovements2);
 
-const allMovements3 = accounts
-.flatMap(acc => acc.movements)
-.reduce((acc, mov) => acc + mov, 0);
+// //FlatMap
+// const allMovements3 = accounts
+// .flatMap(acc => acc.movements)
+// .reduce((acc, mov) => acc + mov, 0);
 
-console.log(allMovements3);
+// console.log(allMovements3);
+
+// Challenge #4-----------------------------------------------------------------------------------------------------------------------------------------------
+// Coding Challenge #4
+
+/*
+This time, Julia and Kate are studying the activity levels of different dog breeds.
+
+YOUR TASKS:
+1. Store the the average weight of a "Husky" in a variable "huskyWeight"
+2. Find the name of the only breed that likes both "running" and "fetch" ("dogBothActivities" variable)
+3. Create an array "allActivities" of all the activities of all the dog breeds
+4. Create an array "uniqueActivities" that contains only the unique activities (no activity repetitions). HINT: Use a technique with a special data structure that we studied a few sections ago.
+5. Many dog breeds like to swim. What other activities do these dogs like? Store all the OTHER activities these breeds like to do, in a unique array called "swimmingAdjacent".
+6. Do all the breeds have an average weight of 10kg or more? Log to the console whether "true" or "false".
+7. Are there any breeds that are "active"? "Active" means that the dog has 3 or more activities. Log to the console whether "true" or "false".
+
+BONUS: What's the average weight of the heaviest breed that likes to fetch? HINT: Use the "Math.max" method along with the ... operator.
+
+TEST DATA:
+*/
+
+// const breeds = [
+//   {
+//     breed: 'German Shepherd',
+//     averageWeight: 32,
+//     activities: ['fetch', 'swimming'],
+//   },
+//   {
+//     breed: 'Dalmatian',
+//     averageWeight: 24,
+//     activities: ['running', 'fetch', 'agility'],
+//   },
+//   {
+//     breed: 'Labrador',
+//     averageWeight: 28,
+//     activities: ['swimming', 'fetch'],
+//   },
+//   {
+//     breed: 'Beagle',
+//     averageWeight: 12,
+//     activities: ['digging', 'fetch'],
+//   },
+//   {
+//     breed: 'Husky',
+//     averageWeight: 26,
+//     activities: ['running', 'agility', 'swimming'],
+//   },
+//   {
+//     breed: 'Bulldog',
+//     averageWeight: 36,
+//     activities: ['sleeping'],
+//   },
+//   {
+//     breed: 'Poodle',
+//     averageWeight: 18,
+//     activities: ['agility', 'fetch'],
+//   },
+// ];
+
+// //  1
+// const huskyWeight = breeds.find(i => i.breed === 'Husky').averageWeight;
+// // console.log(huskyWeight);
+
+// //  2
+// const dogBothActivities = breeds.find(
+//   i => i.activities.includes('fetch') && i.activities.includes('running')
+// ).breed;
+// // console.log(dogBothActivities);
+
+// //  3
+// const allActivities = breeds.flatMap(breed => breed.activities);
+// // console.log(allActivities);
+
+// //  4
+// const uniqueActivities = [...new Set(allActivities)];
+// // console.log(uniqueActivities);
+
+// //  5
+// const swimmingAdjacent = [
+//   ...new Set(
+//     breeds
+//       .filter(mov => mov.activities.includes('swimming'))
+//       .flatMap(mov => mov.activities)
+//       .filter(mov => mov !== 'swimming')
+//   ),
+// ];
+// // console.log(swimmingAdjacent);
+
+// //  6
+// // console.log(breeds.every(breed => breed.averageWeight > 10));
+
+// //  7
+// // console.log(breeds.some(breed => breed.activities.length >= 3));
+
+// //  8
+// const heaviest = breeds
+// .filter((mov) => mov.activities.includes('fetch'))
+// .map((mov) => mov.averageWeight)
+
+// const heaviestBreed = Math.max(...heaviest)
+
+// // console.log(heaviest);
+// console.log(heaviestBreed);
+
+// //  Sorting Ascending
+// console.log(movements.sort((a,b) => b - a));
+// // Sorting Descending Order
+// console.log(movements.sort((a,b) => a - b));
+
+// console.log(movements);
+// const groupedMovements = Object.groupBy(
+//     movements,
+//     (movement) => movement > 0 ? 'deposits' : 'withdrawal'
+// );
+// console.log(groupedMovements);
+
+
+// const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
+
+
+const arr = new Array(1,2,3,4,5,6,7);
+// console.log(...arr);
+
+// console.log(...arr.fill( 0, 2, 6));
+
+const y = Array.from({length: 7}, ()=> 1);
+// console.log(...y);
+
+const z = Array.from ({length: 7}, (_, i)=> i + 1)
+// console.log(...z);
+
+const a = Array.from ({length: 5}, (_, i) => Math.trunc(Math.random() * 10)+ 1)
+// console.log(a);
+
+// const movementsUI = Array.from(document.querySelector('.movements__value'))
+
+// console.log(movementsUI);
+
