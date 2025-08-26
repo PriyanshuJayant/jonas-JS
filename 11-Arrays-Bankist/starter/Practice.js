@@ -3,14 +3,14 @@ const bankDepositSum = accounts
   .flatMap(mov => mov.movements)
   .filter(mov => mov > 0)
   .reduce((mov, i) => mov + i, 0);
-console.log(bankDepositSum);
+// console.log(bankDepositSum);
 
 //  2
 const numDeposits1000 = accounts
   .flatMap(mov => mov.movements)
   //   .filter(mov => mov >= 1000).length
   .reduce((count, curr) => (curr >= 1000 ? count + 1 : count), 0);
-console.log(numDeposits1000);
+// console.log(numDeposits1000);
 
 //  3   Sum of Deposits and Withdrawals
 const { deposits, withdrawals } = accounts
@@ -35,8 +35,7 @@ const convertTitleCase = function(title){
     .split(' ')
     .map((word) => exceptions.includes(word) ? word : capitalize(word))
     .join(' ')
-
     return capitalize(titleCase)
 };
 
-console.log(convertTitleCase('a this is a LONG title but not too long'));
+// console.log(convertTitleCase('a this is a LONG title but not too long'));
