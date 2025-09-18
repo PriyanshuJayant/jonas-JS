@@ -59,3 +59,20 @@ const element = [...h1.parentElement.children].forEach(function(el){
   if (el !== h1) {el.style.transform = 'scale(0.5)'}
 })
 console.log(element);
+
+
+
+document.addEventListener('DOMContentLoaded', function(e){
+  // console.log('HTML Parsed and Dom tree built', e);
+  
+})
+////////////////////////////////////////////////////////////////////////////
+window.addEventListener('load', (e) => {
+  // console.log('Page Loaded', e);
+})
+// window.addEventListener('beforeunload', (e)=> {
+//   e.preventDefault();
+//   console.log(e);
+//   e.returnValue = '';
+//   alert('Are you sure??');
+// })

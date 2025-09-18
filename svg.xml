@@ -1,0 +1,1269 @@
+<svg width="1000" height="8000" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+      <style>
+      .title { font-family: 'Arial', sans-serif; font-size: 18px; font-weight: bold; fill: #2c3e50; }
+      .subtitle { font-family: 'Arial', sans-serif; font-size: 12px; fill: #7f8c8d; }
+      .folder-text { font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; fill: #27ae60; font-weight: bold; }
+      .file-text { font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; fill: #3498db; }
+      .icon { font-family: 'Arial', sans-serif; font-size: 16px; }
+      .line { stroke: #bdc3c7; stroke-width: 1.5; }
+      .background { fill: #f8f9fa; }
+      .header-bg { fill: #ecf0f1; }
+      </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1000" height="8000" class="background"/>
+
+  <!-- Header -->
+  <rect x="0" y="0" width="1000" height="60" class="header-bg"/>
+  <text x="20" y="25" class="title">📁 File Tree: jonas-JS</text>
+          <text x="20" y="45" class="subtitle">Generated: 9/14/2025, 9:23:37 PM | FileTree Pro Extension</text>
+
+  <!-- Tree Structure -->
+    <line x1="15" y1="80" x2="25" y2="80" class="line"/>
+    <text x="30" y="85" class="icon">📁</text>
+    <text x="55" y="85" class="folder-text">01-Fundamentals-Part-1/</text>
+    <line x1="45" y1="100" x2="45" y2="110" class="line"/>
+    <line x1="45" y1="110" x2="55" y2="110" class="line"/>
+    <text x="60" y="115" class="icon">📁</text>
+    <text x="85" y="115" class="folder-text">final/</text>
+    <line x1="75" y1="130" x2="75" y2="140" class="line"/>
+    <line x1="75" y1="140" x2="85" y2="140" class="line"/>
+    <text x="90" y="145" class="icon">🌐</text>
+    <text x="115" y="145" class="file-text">index.html</text>
+    <line x1="75" y1="165" x2="75" y2="175" class="line"/>
+    <line x1="75" y1="175" x2="85" y2="175" class="line"/>
+    <text x="90" y="180" class="icon">📄</text>
+    <text x="115" y="180" class="file-text">script.js</text>
+    <line x1="45" y1="235" x2="45" y2="245" class="line"/>
+    <line x1="45" y1="245" x2="55" y2="245" class="line"/>
+    <text x="60" y="250" class="icon">📁</text>
+    <text x="85" y="250" class="folder-text">starter/</text>
+    <line x1="75" y1="265" x2="75" y2="275" class="line"/>
+    <line x1="75" y1="275" x2="85" y2="275" class="line"/>
+    <text x="90" y="280" class="icon">🌐</text>
+    <text x="115" y="280" class="file-text">index.html</text>
+    <line x1="15" y1="355" x2="25" y2="355" class="line"/>
+    <text x="30" y="360" class="icon">📁</text>
+    <text x="55" y="360" class="folder-text">02-Fundamentals-Part-2/</text>
+    <line x1="45" y1="375" x2="45" y2="385" class="line"/>
+    <line x1="45" y1="385" x2="55" y2="385" class="line"/>
+    <text x="60" y="390" class="icon">📁</text>
+    <text x="85" y="390" class="folder-text">final/</text>
+    <line x1="75" y1="405" x2="75" y2="415" class="line"/>
+    <line x1="75" y1="415" x2="85" y2="415" class="line"/>
+    <text x="90" y="420" class="icon">🌐</text>
+    <text x="115" y="420" class="file-text">index.html</text>
+    <line x1="75" y1="440" x2="75" y2="450" class="line"/>
+    <line x1="75" y1="450" x2="85" y2="450" class="line"/>
+    <text x="90" y="455" class="icon">📄</text>
+    <text x="115" y="455" class="file-text">script.js</text>
+    <line x1="45" y1="510" x2="45" y2="520" class="line"/>
+    <line x1="45" y1="520" x2="55" y2="520" class="line"/>
+    <text x="60" y="525" class="icon">📁</text>
+    <text x="85" y="525" class="folder-text">starter/</text>
+    <line x1="75" y1="540" x2="75" y2="550" class="line"/>
+    <line x1="75" y1="550" x2="85" y2="550" class="line"/>
+    <text x="90" y="555" class="icon">🌐</text>
+    <text x="115" y="555" class="file-text">index.html</text>
+    <line x1="75" y1="575" x2="75" y2="585" class="line"/>
+    <line x1="75" y1="585" x2="85" y2="585" class="line"/>
+    <text x="90" y="590" class="icon">📄</text>
+    <text x="115" y="590" class="file-text">script.js</text>
+    <line x1="15" y1="665" x2="25" y2="665" class="line"/>
+    <text x="30" y="670" class="icon">📁</text>
+    <text x="55" y="670" class="folder-text">03-Developer-Skills/</text>
+    <line x1="45" y1="685" x2="45" y2="695" class="line"/>
+    <line x1="45" y1="695" x2="55" y2="695" class="line"/>
+    <text x="60" y="700" class="icon">📁</text>
+    <text x="85" y="700" class="folder-text">final/</text>
+    <line x1="75" y1="715" x2="75" y2="725" class="line"/>
+    <line x1="75" y1="725" x2="85" y2="725" class="line"/>
+    <text x="90" y="730" class="icon">📄</text>
+    <text x="115" y="730" class="file-text">.prettierrc</text>
+    <line x1="75" y1="750" x2="75" y2="760" class="line"/>
+    <line x1="75" y1="760" x2="85" y2="760" class="line"/>
+    <text x="90" y="765" class="icon">🌐</text>
+    <text x="115" y="765" class="file-text">index.html</text>
+    <line x1="75" y1="785" x2="75" y2="795" class="line"/>
+    <line x1="75" y1="795" x2="85" y2="795" class="line"/>
+    <text x="90" y="800" class="icon">📄</text>
+    <text x="115" y="800" class="file-text">script.js</text>
+    <line x1="45" y1="855" x2="45" y2="865" class="line"/>
+    <line x1="45" y1="865" x2="55" y2="865" class="line"/>
+    <text x="60" y="870" class="icon">📁</text>
+    <text x="85" y="870" class="folder-text">starter/</text>
+    <line x1="75" y1="885" x2="75" y2="895" class="line"/>
+    <line x1="75" y1="895" x2="85" y2="895" class="line"/>
+    <text x="90" y="900" class="icon">🌐</text>
+    <text x="115" y="900" class="file-text">index.html</text>
+    <line x1="75" y1="920" x2="75" y2="930" class="line"/>
+    <line x1="75" y1="930" x2="85" y2="930" class="line"/>
+    <text x="90" y="935" class="icon">📄</text>
+    <text x="115" y="935" class="file-text">script.js</text>
+    <line x1="15" y1="1010" x2="25" y2="1010" class="line"/>
+    <text x="30" y="1015" class="icon">📁</text>
+    <text x="55" y="1015" class="folder-text">04-HTML-CSS/</text>
+    <line x1="45" y1="1030" x2="45" y2="1040" class="line"/>
+    <line x1="45" y1="1040" x2="55" y2="1040" class="line"/>
+    <text x="60" y="1045" class="icon">📁</text>
+    <text x="85" y="1045" class="folder-text">final/</text>
+    <line x1="75" y1="1060" x2="75" y2="1070" class="line"/>
+    <line x1="75" y1="1070" x2="85" y2="1070" class="line"/>
+    <text x="90" y="1075" class="icon">🌐</text>
+    <text x="115" y="1075" class="file-text">index.html</text>
+    <line x1="75" y1="1095" x2="75" y2="1105" class="line"/>
+    <line x1="75" y1="1105" x2="85" y2="1105" class="line"/>
+    <text x="90" y="1110" class="icon">🎨</text>
+    <text x="115" y="1110" class="file-text">style.css</text>
+    <line x1="15" y1="1185" x2="25" y2="1185" class="line"/>
+    <text x="30" y="1190" class="icon">📁</text>
+    <text x="55" y="1190" class="folder-text">05-Guess-My-Number/</text>
+    <line x1="45" y1="1205" x2="45" y2="1215" class="line"/>
+    <line x1="45" y1="1215" x2="55" y2="1215" class="line"/>
+    <text x="60" y="1220" class="icon">📁</text>
+    <text x="85" y="1220" class="folder-text">final/</text>
+    <line x1="75" y1="1235" x2="75" y2="1245" class="line"/>
+    <line x1="75" y1="1245" x2="85" y2="1245" class="line"/>
+    <text x="90" y="1250" class="icon">📄</text>
+    <text x="115" y="1250" class="file-text">.prettierrc</text>
+    <line x1="75" y1="1270" x2="75" y2="1280" class="line"/>
+    <line x1="75" y1="1280" x2="85" y2="1280" class="line"/>
+    <text x="90" y="1285" class="icon">🌐</text>
+    <text x="115" y="1285" class="file-text">index.html</text>
+    <line x1="75" y1="1305" x2="75" y2="1315" class="line"/>
+    <line x1="75" y1="1315" x2="85" y2="1315" class="line"/>
+    <text x="90" y="1320" class="icon">📄</text>
+    <text x="115" y="1320" class="file-text">script.js</text>
+    <line x1="75" y1="1340" x2="75" y2="1350" class="line"/>
+    <line x1="75" y1="1350" x2="85" y2="1350" class="line"/>
+    <text x="90" y="1355" class="icon">🎨</text>
+    <text x="115" y="1355" class="file-text">style.css</text>
+    <line x1="45" y1="1410" x2="45" y2="1420" class="line"/>
+    <line x1="45" y1="1420" x2="55" y2="1420" class="line"/>
+    <text x="60" y="1425" class="icon">📁</text>
+    <text x="85" y="1425" class="folder-text">starter/</text>
+    <line x1="75" y1="1440" x2="75" y2="1450" class="line"/>
+    <line x1="75" y1="1450" x2="85" y2="1450" class="line"/>
+    <text x="90" y="1455" class="icon">📄</text>
+    <text x="115" y="1455" class="file-text">.prettierrc</text>
+    <line x1="75" y1="1475" x2="75" y2="1485" class="line"/>
+    <line x1="75" y1="1485" x2="85" y2="1485" class="line"/>
+    <text x="90" y="1490" class="icon">🌐</text>
+    <text x="115" y="1490" class="file-text">index.html</text>
+    <line x1="75" y1="1510" x2="75" y2="1520" class="line"/>
+    <line x1="75" y1="1520" x2="85" y2="1520" class="line"/>
+    <text x="90" y="1525" class="icon">📄</text>
+    <text x="115" y="1525" class="file-text">script.js</text>
+    <line x1="75" y1="1545" x2="75" y2="1555" class="line"/>
+    <line x1="75" y1="1555" x2="85" y2="1555" class="line"/>
+    <text x="90" y="1560" class="icon">🎨</text>
+    <text x="115" y="1560" class="file-text">style.css</text>
+    <line x1="15" y1="1635" x2="25" y2="1635" class="line"/>
+    <text x="30" y="1640" class="icon">📁</text>
+    <text x="55" y="1640" class="folder-text">06-Modal/</text>
+    <line x1="45" y1="1655" x2="45" y2="1665" class="line"/>
+    <line x1="45" y1="1665" x2="55" y2="1665" class="line"/>
+    <text x="60" y="1670" class="icon">📁</text>
+    <text x="85" y="1670" class="folder-text">final/</text>
+    <line x1="75" y1="1685" x2="75" y2="1695" class="line"/>
+    <line x1="75" y1="1695" x2="85" y2="1695" class="line"/>
+    <text x="90" y="1700" class="icon">📄</text>
+    <text x="115" y="1700" class="file-text">.prettierrc</text>
+    <line x1="75" y1="1720" x2="75" y2="1730" class="line"/>
+    <line x1="75" y1="1730" x2="85" y2="1730" class="line"/>
+    <text x="90" y="1735" class="icon">🌐</text>
+    <text x="115" y="1735" class="file-text">index.html</text>
+    <line x1="75" y1="1755" x2="75" y2="1765" class="line"/>
+    <line x1="75" y1="1765" x2="85" y2="1765" class="line"/>
+    <text x="90" y="1770" class="icon">📄</text>
+    <text x="115" y="1770" class="file-text">script.js</text>
+    <line x1="75" y1="1790" x2="75" y2="1800" class="line"/>
+    <line x1="75" y1="1800" x2="85" y2="1800" class="line"/>
+    <text x="90" y="1805" class="icon">🎨</text>
+    <text x="115" y="1805" class="file-text">style.css</text>
+    <line x1="45" y1="1860" x2="45" y2="1870" class="line"/>
+    <line x1="45" y1="1870" x2="55" y2="1870" class="line"/>
+    <text x="60" y="1875" class="icon">📁</text>
+    <text x="85" y="1875" class="folder-text">starter/</text>
+    <line x1="75" y1="1890" x2="75" y2="1900" class="line"/>
+    <line x1="75" y1="1900" x2="85" y2="1900" class="line"/>
+    <text x="90" y="1905" class="icon">📄</text>
+    <text x="115" y="1905" class="file-text">.prettierrc</text>
+    <line x1="75" y1="1925" x2="75" y2="1935" class="line"/>
+    <line x1="75" y1="1935" x2="85" y2="1935" class="line"/>
+    <text x="90" y="1940" class="icon">🌐</text>
+    <text x="115" y="1940" class="file-text">index.html</text>
+    <line x1="75" y1="1960" x2="75" y2="1970" class="line"/>
+    <line x1="75" y1="1970" x2="85" y2="1970" class="line"/>
+    <text x="90" y="1975" class="icon">📄</text>
+    <text x="115" y="1975" class="file-text">script.js</text>
+    <line x1="75" y1="1995" x2="75" y2="2005" class="line"/>
+    <line x1="75" y1="2005" x2="85" y2="2005" class="line"/>
+    <text x="90" y="2010" class="icon">🎨</text>
+    <text x="115" y="2010" class="file-text">style.css</text>
+    <line x1="15" y1="2085" x2="25" y2="2085" class="line"/>
+    <text x="30" y="2090" class="icon">📁</text>
+    <text x="55" y="2090" class="folder-text">07-Pig-Game/</text>
+    <line x1="45" y1="2105" x2="45" y2="2115" class="line"/>
+    <line x1="45" y1="2115" x2="55" y2="2115" class="line"/>
+    <text x="60" y="2120" class="icon">📁</text>
+    <text x="85" y="2120" class="folder-text">final/</text>
+    <line x1="75" y1="2135" x2="75" y2="2145" class="line"/>
+    <line x1="75" y1="2145" x2="85" y2="2145" class="line"/>
+    <text x="90" y="2150" class="icon">📄</text>
+    <text x="115" y="2150" class="file-text">.prettierrc</text>
+    <line x1="75" y1="2170" x2="75" y2="2180" class="line"/>
+    <line x1="75" y1="2180" x2="85" y2="2180" class="line"/>
+    <text x="90" y="2185" class="icon">🖼️</text>
+    <text x="115" y="2185" class="file-text">brain.png</text>
+    <line x1="75" y1="2205" x2="75" y2="2215" class="line"/>
+    <line x1="75" y1="2215" x2="85" y2="2215" class="line"/>
+    <text x="90" y="2220" class="icon">🖼️</text>
+    <text x="115" y="2220" class="file-text">dice-1.png</text>
+    <line x1="75" y1="2240" x2="75" y2="2250" class="line"/>
+    <line x1="75" y1="2250" x2="85" y2="2250" class="line"/>
+    <text x="90" y="2255" class="icon">🖼️</text>
+    <text x="115" y="2255" class="file-text">dice-2.png</text>
+    <line x1="75" y1="2275" x2="75" y2="2285" class="line"/>
+    <line x1="75" y1="2285" x2="85" y2="2285" class="line"/>
+    <text x="90" y="2290" class="icon">🖼️</text>
+    <text x="115" y="2290" class="file-text">dice-3.png</text>
+    <line x1="75" y1="2310" x2="75" y2="2320" class="line"/>
+    <line x1="75" y1="2320" x2="85" y2="2320" class="line"/>
+    <text x="90" y="2325" class="icon">🖼️</text>
+    <text x="115" y="2325" class="file-text">dice-4.png</text>
+    <line x1="75" y1="2345" x2="75" y2="2355" class="line"/>
+    <line x1="75" y1="2355" x2="85" y2="2355" class="line"/>
+    <text x="90" y="2360" class="icon">🖼️</text>
+    <text x="115" y="2360" class="file-text">dice-5.png</text>
+    <line x1="75" y1="2380" x2="75" y2="2390" class="line"/>
+    <line x1="75" y1="2390" x2="85" y2="2390" class="line"/>
+    <text x="90" y="2395" class="icon">🖼️</text>
+    <text x="115" y="2395" class="file-text">dice-6.png</text>
+    <line x1="75" y1="2415" x2="75" y2="2425" class="line"/>
+    <line x1="75" y1="2425" x2="85" y2="2425" class="line"/>
+    <text x="90" y="2430" class="icon">🖼️</text>
+    <text x="115" y="2430" class="file-text">graveyard.png</text>
+    <line x1="75" y1="2450" x2="75" y2="2460" class="line"/>
+    <line x1="75" y1="2460" x2="85" y2="2460" class="line"/>
+    <text x="90" y="2465" class="icon">🌐</text>
+    <text x="115" y="2465" class="file-text">index.html</text>
+    <line x1="75" y1="2485" x2="75" y2="2495" class="line"/>
+    <line x1="75" y1="2495" x2="85" y2="2495" class="line"/>
+    <text x="90" y="2500" class="icon">🖼️</text>
+    <text x="115" y="2500" class="file-text">pig-game-flowchart.png</text>
+    <line x1="75" y1="2520" x2="75" y2="2530" class="line"/>
+    <line x1="75" y1="2530" x2="85" y2="2530" class="line"/>
+    <text x="90" y="2535" class="icon">📄</text>
+    <text x="115" y="2535" class="file-text">script.js</text>
+    <line x1="75" y1="2555" x2="75" y2="2565" class="line"/>
+    <line x1="75" y1="2565" x2="85" y2="2565" class="line"/>
+    <text x="90" y="2570" class="icon">🎨</text>
+    <text x="115" y="2570" class="file-text">style.css</text>
+    <line x1="75" y1="2590" x2="75" y2="2600" class="line"/>
+    <line x1="75" y1="2600" x2="85" y2="2600" class="line"/>
+    <text x="90" y="2605" class="icon">🖼️</text>
+    <text x="115" y="2605" class="file-text">zombie.png</text>
+    <line x1="45" y1="2660" x2="45" y2="2670" class="line"/>
+    <line x1="45" y1="2670" x2="55" y2="2670" class="line"/>
+    <text x="60" y="2675" class="icon">📁</text>
+    <text x="85" y="2675" class="folder-text">starter/</text>
+    <line x1="75" y1="2690" x2="75" y2="2700" class="line"/>
+    <line x1="75" y1="2700" x2="85" y2="2700" class="line"/>
+    <text x="90" y="2705" class="icon">📄</text>
+    <text x="115" y="2705" class="file-text">.prettierrc</text>
+    <line x1="75" y1="2725" x2="75" y2="2735" class="line"/>
+    <line x1="75" y1="2735" x2="85" y2="2735" class="line"/>
+    <text x="90" y="2740" class="icon">🖼️</text>
+    <text x="115" y="2740" class="file-text">dice-1.png</text>
+    <line x1="75" y1="2760" x2="75" y2="2770" class="line"/>
+    <line x1="75" y1="2770" x2="85" y2="2770" class="line"/>
+    <text x="90" y="2775" class="icon">🖼️</text>
+    <text x="115" y="2775" class="file-text">dice-2.png</text>
+    <line x1="75" y1="2795" x2="75" y2="2805" class="line"/>
+    <line x1="75" y1="2805" x2="85" y2="2805" class="line"/>
+    <text x="90" y="2810" class="icon">🖼️</text>
+    <text x="115" y="2810" class="file-text">dice-3.png</text>
+    <line x1="75" y1="2830" x2="75" y2="2840" class="line"/>
+    <line x1="75" y1="2840" x2="85" y2="2840" class="line"/>
+    <text x="90" y="2845" class="icon">🖼️</text>
+    <text x="115" y="2845" class="file-text">dice-4.png</text>
+    <line x1="75" y1="2865" x2="75" y2="2875" class="line"/>
+    <line x1="75" y1="2875" x2="85" y2="2875" class="line"/>
+    <text x="90" y="2880" class="icon">🖼️</text>
+    <text x="115" y="2880" class="file-text">dice-5.png</text>
+    <line x1="75" y1="2900" x2="75" y2="2910" class="line"/>
+    <line x1="75" y1="2910" x2="85" y2="2910" class="line"/>
+    <text x="90" y="2915" class="icon">🖼️</text>
+    <text x="115" y="2915" class="file-text">dice-6.png</text>
+    <line x1="75" y1="2935" x2="75" y2="2945" class="line"/>
+    <line x1="75" y1="2945" x2="85" y2="2945" class="line"/>
+    <text x="90" y="2950" class="icon">🖼️</text>
+    <text x="115" y="2950" class="file-text">flowchart.png</text>
+    <line x1="75" y1="2970" x2="75" y2="2980" class="line"/>
+    <line x1="75" y1="2980" x2="85" y2="2980" class="line"/>
+    <text x="90" y="2985" class="icon">🌐</text>
+    <text x="115" y="2985" class="file-text">index.html</text>
+    <line x1="75" y1="3005" x2="75" y2="3015" class="line"/>
+    <line x1="75" y1="3015" x2="85" y2="3015" class="line"/>
+    <text x="90" y="3020" class="icon">📄</text>
+    <text x="115" y="3020" class="file-text">script.js</text>
+    <line x1="75" y1="3040" x2="75" y2="3050" class="line"/>
+    <line x1="75" y1="3050" x2="85" y2="3050" class="line"/>
+    <text x="90" y="3055" class="icon">📄</text>
+    <text x="115" y="3055" class="file-text">script2.js</text>
+    <line x1="75" y1="3075" x2="75" y2="3085" class="line"/>
+    <line x1="75" y1="3085" x2="85" y2="3085" class="line"/>
+    <text x="90" y="3090" class="icon">🎨</text>
+    <text x="115" y="3090" class="file-text">style.css</text>
+    <line x1="15" y1="3165" x2="25" y2="3165" class="line"/>
+    <text x="30" y="3170" class="icon">📁</text>
+    <text x="55" y="3170" class="folder-text">08-Behind-the-Scenes/</text>
+    <line x1="45" y1="3185" x2="45" y2="3195" class="line"/>
+    <line x1="45" y1="3195" x2="55" y2="3195" class="line"/>
+    <text x="60" y="3200" class="icon">📁</text>
+    <text x="85" y="3200" class="folder-text">final/</text>
+    <line x1="75" y1="3215" x2="75" y2="3225" class="line"/>
+    <line x1="75" y1="3225" x2="85" y2="3225" class="line"/>
+    <text x="90" y="3230" class="icon">📄</text>
+    <text x="115" y="3230" class="file-text">.prettierrc</text>
+    <line x1="75" y1="3250" x2="75" y2="3260" class="line"/>
+    <line x1="75" y1="3260" x2="85" y2="3260" class="line"/>
+    <text x="90" y="3265" class="icon">🌐</text>
+    <text x="115" y="3265" class="file-text">index.html</text>
+    <line x1="75" y1="3285" x2="75" y2="3295" class="line"/>
+    <line x1="75" y1="3295" x2="85" y2="3295" class="line"/>
+    <text x="90" y="3300" class="icon">📄</text>
+    <text x="115" y="3300" class="file-text">script.js</text>
+    <line x1="45" y1="3355" x2="45" y2="3365" class="line"/>
+    <line x1="45" y1="3365" x2="55" y2="3365" class="line"/>
+    <text x="60" y="3370" class="icon">📁</text>
+    <text x="85" y="3370" class="folder-text">starter/</text>
+    <line x1="75" y1="3385" x2="75" y2="3395" class="line"/>
+    <line x1="75" y1="3395" x2="85" y2="3395" class="line"/>
+    <text x="90" y="3400" class="icon">📄</text>
+    <text x="115" y="3400" class="file-text">.prettierrc</text>
+    <line x1="75" y1="3420" x2="75" y2="3430" class="line"/>
+    <line x1="75" y1="3430" x2="85" y2="3430" class="line"/>
+    <text x="90" y="3435" class="icon">🌐</text>
+    <text x="115" y="3435" class="file-text">index.html</text>
+    <line x1="75" y1="3455" x2="75" y2="3465" class="line"/>
+    <line x1="75" y1="3465" x2="85" y2="3465" class="line"/>
+    <text x="90" y="3470" class="icon">📄</text>
+    <text x="115" y="3470" class="file-text">script.js</text>
+    <line x1="15" y1="3545" x2="25" y2="3545" class="line"/>
+    <text x="30" y="3550" class="icon">📁</text>
+    <text x="55" y="3550" class="folder-text">09-Data-Structures-Operators/</text>
+    <line x1="45" y1="3565" x2="45" y2="3575" class="line"/>
+    <line x1="45" y1="3575" x2="55" y2="3575" class="line"/>
+    <text x="60" y="3580" class="icon">📁</text>
+    <text x="85" y="3580" class="folder-text">final/</text>
+    <line x1="75" y1="3595" x2="75" y2="3605" class="line"/>
+    <line x1="75" y1="3605" x2="85" y2="3605" class="line"/>
+    <text x="90" y="3610" class="icon">📄</text>
+    <text x="115" y="3610" class="file-text">.prettierrc</text>
+    <line x1="75" y1="3630" x2="75" y2="3640" class="line"/>
+    <line x1="75" y1="3640" x2="85" y2="3640" class="line"/>
+    <text x="90" y="3645" class="icon">🌐</text>
+    <text x="115" y="3645" class="file-text">index.html</text>
+    <line x1="75" y1="3665" x2="75" y2="3675" class="line"/>
+    <line x1="75" y1="3675" x2="85" y2="3675" class="line"/>
+    <text x="90" y="3680" class="icon">📄</text>
+    <text x="115" y="3680" class="file-text">script.js</text>
+    <line x1="45" y1="3735" x2="45" y2="3745" class="line"/>
+    <line x1="45" y1="3745" x2="55" y2="3745" class="line"/>
+    <text x="60" y="3750" class="icon">📁</text>
+    <text x="85" y="3750" class="folder-text">starter/</text>
+    <line x1="75" y1="3765" x2="75" y2="3775" class="line"/>
+    <line x1="75" y1="3775" x2="85" y2="3775" class="line"/>
+    <text x="90" y="3780" class="icon">📄</text>
+    <text x="115" y="3780" class="file-text">.prettierrc</text>
+    <line x1="75" y1="3800" x2="75" y2="3810" class="line"/>
+    <line x1="75" y1="3810" x2="85" y2="3810" class="line"/>
+    <text x="90" y="3815" class="icon">🌐</text>
+    <text x="115" y="3815" class="file-text">index.html</text>
+    <line x1="75" y1="3835" x2="75" y2="3845" class="line"/>
+    <line x1="75" y1="3845" x2="85" y2="3845" class="line"/>
+    <text x="90" y="3850" class="icon">📄</text>
+    <text x="115" y="3850" class="file-text">script.js</text>
+    <line x1="15" y1="3925" x2="25" y2="3925" class="line"/>
+    <text x="30" y="3930" class="icon">📁</text>
+    <text x="55" y="3930" class="folder-text">10-Functions/</text>
+    <line x1="45" y1="3945" x2="45" y2="3955" class="line"/>
+    <line x1="45" y1="3955" x2="55" y2="3955" class="line"/>
+    <text x="60" y="3960" class="icon">📁</text>
+    <text x="85" y="3960" class="folder-text">final/</text>
+    <line x1="75" y1="3975" x2="75" y2="3985" class="line"/>
+    <line x1="75" y1="3985" x2="85" y2="3985" class="line"/>
+    <text x="90" y="3990" class="icon">📄</text>
+    <text x="115" y="3990" class="file-text">.prettierrc</text>
+    <line x1="75" y1="4010" x2="75" y2="4020" class="line"/>
+    <line x1="75" y1="4020" x2="85" y2="4020" class="line"/>
+    <text x="90" y="4025" class="icon">🌐</text>
+    <text x="115" y="4025" class="file-text">index.html</text>
+    <line x1="75" y1="4045" x2="75" y2="4055" class="line"/>
+    <line x1="75" y1="4055" x2="85" y2="4055" class="line"/>
+    <text x="90" y="4060" class="icon">📄</text>
+    <text x="115" y="4060" class="file-text">script.js</text>
+    <line x1="45" y1="4115" x2="45" y2="4125" class="line"/>
+    <line x1="45" y1="4125" x2="55" y2="4125" class="line"/>
+    <text x="60" y="4130" class="icon">📁</text>
+    <text x="85" y="4130" class="folder-text">starter/</text>
+    <line x1="75" y1="4145" x2="75" y2="4155" class="line"/>
+    <line x1="75" y1="4155" x2="85" y2="4155" class="line"/>
+    <text x="90" y="4160" class="icon">📄</text>
+    <text x="115" y="4160" class="file-text">.prettierrc</text>
+    <line x1="75" y1="4180" x2="75" y2="4190" class="line"/>
+    <line x1="75" y1="4190" x2="85" y2="4190" class="line"/>
+    <text x="90" y="4195" class="icon">🌐</text>
+    <text x="115" y="4195" class="file-text">index.html</text>
+    <line x1="75" y1="4215" x2="75" y2="4225" class="line"/>
+    <line x1="75" y1="4225" x2="85" y2="4225" class="line"/>
+    <text x="90" y="4230" class="icon">📄</text>
+    <text x="115" y="4230" class="file-text">script.js</text>
+    <line x1="15" y1="4305" x2="25" y2="4305" class="line"/>
+    <text x="30" y="4310" class="icon">📁</text>
+    <text x="55" y="4310" class="folder-text">11-Arrays-Bankist/</text>
+    <line x1="45" y1="4325" x2="45" y2="4335" class="line"/>
+    <line x1="45" y1="4335" x2="55" y2="4335" class="line"/>
+    <text x="60" y="4340" class="icon">📁</text>
+    <text x="85" y="4340" class="folder-text">final/</text>
+    <line x1="75" y1="4355" x2="75" y2="4365" class="line"/>
+    <line x1="75" y1="4365" x2="85" y2="4365" class="line"/>
+    <text x="90" y="4370" class="icon">📄</text>
+    <text x="115" y="4370" class="file-text">.prettierrc</text>
+    <line x1="75" y1="4390" x2="75" y2="4400" class="line"/>
+    <line x1="75" y1="4400" x2="85" y2="4400" class="line"/>
+    <text x="90" y="4405" class="icon">🖼️</text>
+    <text x="115" y="4405" class="file-text">Bankist-flowchart.png</text>
+    <line x1="75" y1="4425" x2="75" y2="4435" class="line"/>
+    <line x1="75" y1="4435" x2="85" y2="4435" class="line"/>
+    <text x="90" y="4440" class="icon">🖼️</text>
+    <text x="115" y="4440" class="file-text">icon.png</text>
+    <line x1="75" y1="4460" x2="75" y2="4470" class="line"/>
+    <line x1="75" y1="4470" x2="85" y2="4470" class="line"/>
+    <text x="90" y="4475" class="icon">🌐</text>
+    <text x="115" y="4475" class="file-text">index.html</text>
+    <line x1="75" y1="4495" x2="75" y2="4505" class="line"/>
+    <line x1="75" y1="4505" x2="85" y2="4505" class="line"/>
+    <text x="90" y="4510" class="icon">🖼️</text>
+    <text x="115" y="4510" class="file-text">logo.png</text>
+    <line x1="75" y1="4530" x2="75" y2="4540" class="line"/>
+    <line x1="75" y1="4540" x2="85" y2="4540" class="line"/>
+    <text x="90" y="4545" class="icon">📄</text>
+    <text x="115" y="4545" class="file-text">script.js</text>
+    <line x1="75" y1="4565" x2="75" y2="4575" class="line"/>
+    <line x1="75" y1="4575" x2="85" y2="4575" class="line"/>
+    <text x="90" y="4580" class="icon">📄</text>
+    <text x="115" y="4580" class="file-text">script.js.save</text>
+    <line x1="75" y1="4600" x2="75" y2="4610" class="line"/>
+    <line x1="75" y1="4610" x2="85" y2="4610" class="line"/>
+    <text x="90" y="4615" class="icon">🎨</text>
+    <text x="115" y="4615" class="file-text">style.css</text>
+    <line x1="45" y1="4670" x2="45" y2="4680" class="line"/>
+    <line x1="45" y1="4680" x2="55" y2="4680" class="line"/>
+    <text x="60" y="4685" class="icon">📁</text>
+    <text x="85" y="4685" class="folder-text">starter/</text>
+    <line x1="75" y1="4700" x2="75" y2="4710" class="line"/>
+    <line x1="75" y1="4710" x2="85" y2="4710" class="line"/>
+    <text x="90" y="4715" class="icon">📄</text>
+    <text x="115" y="4715" class="file-text">.prettierrc</text>
+    <line x1="75" y1="4735" x2="75" y2="4745" class="line"/>
+    <line x1="75" y1="4745" x2="85" y2="4745" class="line"/>
+    <text x="90" y="4750" class="icon">🖼️</text>
+    <text x="115" y="4750" class="file-text">ArrayFunctions.png</text>
+    <line x1="75" y1="4770" x2="75" y2="4780" class="line"/>
+    <line x1="75" y1="4780" x2="85" y2="4780" class="line"/>
+    <text x="90" y="4785" class="icon">🖼️</text>
+    <text x="115" y="4785" class="file-text">Bankist-flowchart.png</text>
+    <line x1="75" y1="4805" x2="75" y2="4815" class="line"/>
+    <line x1="75" y1="4815" x2="85" y2="4815" class="line"/>
+    <text x="90" y="4820" class="icon">🖼️</text>
+    <text x="115" y="4820" class="file-text">MoreArrayFunctions.png</text>
+    <line x1="75" y1="4840" x2="75" y2="4850" class="line"/>
+    <line x1="75" y1="4850" x2="85" y2="4850" class="line"/>
+    <text x="90" y="4855" class="icon">📄</text>
+    <text x="115" y="4855" class="file-text">Practice.js</text>
+    <line x1="75" y1="4875" x2="75" y2="4885" class="line"/>
+    <line x1="75" y1="4885" x2="85" y2="4885" class="line"/>
+    <text x="90" y="4890" class="icon">📄</text>
+    <text x="115" y="4890" class="file-text">challance.js</text>
+    <line x1="75" y1="4910" x2="75" y2="4920" class="line"/>
+    <line x1="75" y1="4920" x2="85" y2="4920" class="line"/>
+    <text x="90" y="4925" class="icon">🖼️</text>
+    <text x="115" y="4925" class="file-text">icon.png</text>
+    <line x1="75" y1="4945" x2="75" y2="4955" class="line"/>
+    <line x1="75" y1="4955" x2="85" y2="4955" class="line"/>
+    <text x="90" y="4960" class="icon">🌐</text>
+    <text x="115" y="4960" class="file-text">index.html</text>
+    <line x1="75" y1="4980" x2="75" y2="4990" class="line"/>
+    <line x1="75" y1="4990" x2="85" y2="4990" class="line"/>
+    <text x="90" y="4995" class="icon">📄</text>
+    <text x="115" y="4995" class="file-text">index.js</text>
+    <line x1="75" y1="5015" x2="75" y2="5025" class="line"/>
+    <line x1="75" y1="5025" x2="85" y2="5025" class="line"/>
+    <text x="90" y="5030" class="icon">🖼️</text>
+    <text x="115" y="5030" class="file-text">logo.png</text>
+    <line x1="75" y1="5050" x2="75" y2="5060" class="line"/>
+    <line x1="75" y1="5060" x2="85" y2="5060" class="line"/>
+    <text x="90" y="5065" class="icon">📄</text>
+    <text x="115" y="5065" class="file-text">script.js</text>
+    <line x1="75" y1="5085" x2="75" y2="5095" class="line"/>
+    <line x1="75" y1="5095" x2="85" y2="5095" class="line"/>
+    <text x="90" y="5100" class="icon">🎨</text>
+    <text x="115" y="5100" class="file-text">style.css</text>
+    <line x1="15" y1="5175" x2="25" y2="5175" class="line"/>
+    <text x="30" y="5180" class="icon">📁</text>
+    <text x="55" y="5180" class="folder-text">12-Numbers-Dates-Timers-Bankist/</text>
+    <line x1="45" y1="5195" x2="45" y2="5205" class="line"/>
+    <line x1="45" y1="5205" x2="55" y2="5205" class="line"/>
+    <text x="60" y="5210" class="icon">📁</text>
+    <text x="85" y="5210" class="folder-text">final/</text>
+    <line x1="75" y1="5225" x2="75" y2="5235" class="line"/>
+    <line x1="75" y1="5235" x2="85" y2="5235" class="line"/>
+    <text x="90" y="5240" class="icon">📄</text>
+    <text x="115" y="5240" class="file-text">.prettierrc</text>
+    <line x1="75" y1="5260" x2="75" y2="5270" class="line"/>
+    <line x1="75" y1="5270" x2="85" y2="5270" class="line"/>
+    <text x="90" y="5275" class="icon">🖼️</text>
+    <text x="115" y="5275" class="file-text">Bankist-flowchart.png</text>
+    <line x1="75" y1="5295" x2="75" y2="5305" class="line"/>
+    <line x1="75" y1="5305" x2="85" y2="5305" class="line"/>
+    <text x="90" y="5310" class="icon">🖼️</text>
+    <text x="115" y="5310" class="file-text">icon.png</text>
+    <line x1="75" y1="5330" x2="75" y2="5340" class="line"/>
+    <line x1="75" y1="5340" x2="85" y2="5340" class="line"/>
+    <text x="90" y="5345" class="icon">🌐</text>
+    <text x="115" y="5345" class="file-text">index.html</text>
+    <line x1="75" y1="5365" x2="75" y2="5375" class="line"/>
+    <line x1="75" y1="5375" x2="85" y2="5375" class="line"/>
+    <text x="90" y="5380" class="icon">🖼️</text>
+    <text x="115" y="5380" class="file-text">logo.png</text>
+    <line x1="75" y1="5400" x2="75" y2="5410" class="line"/>
+    <line x1="75" y1="5410" x2="85" y2="5410" class="line"/>
+    <text x="90" y="5415" class="icon">📄</text>
+    <text x="115" y="5415" class="file-text">script.js</text>
+    <line x1="75" y1="5435" x2="75" y2="5445" class="line"/>
+    <line x1="75" y1="5445" x2="85" y2="5445" class="line"/>
+    <text x="90" y="5450" class="icon">🎨</text>
+    <text x="115" y="5450" class="file-text">style.css</text>
+    <line x1="45" y1="5505" x2="45" y2="5515" class="line"/>
+    <line x1="45" y1="5515" x2="55" y2="5515" class="line"/>
+    <text x="60" y="5520" class="icon">📁</text>
+    <text x="85" y="5520" class="folder-text">starter/</text>
+    <line x1="75" y1="5535" x2="75" y2="5545" class="line"/>
+    <line x1="75" y1="5545" x2="85" y2="5545" class="line"/>
+    <text x="90" y="5550" class="icon">📄</text>
+    <text x="115" y="5550" class="file-text">.prettierrc</text>
+    <line x1="75" y1="5570" x2="75" y2="5580" class="line"/>
+    <line x1="75" y1="5580" x2="85" y2="5580" class="line"/>
+    <text x="90" y="5585" class="icon">🖼️</text>
+    <text x="115" y="5585" class="file-text">Bankist-flowchart.png</text>
+    <line x1="75" y1="5605" x2="75" y2="5615" class="line"/>
+    <line x1="75" y1="5615" x2="85" y2="5615" class="line"/>
+    <text x="90" y="5620" class="icon">🖼️</text>
+    <text x="115" y="5620" class="file-text">icon.png</text>
+    <line x1="75" y1="5640" x2="75" y2="5650" class="line"/>
+    <line x1="75" y1="5650" x2="85" y2="5650" class="line"/>
+    <text x="90" y="5655" class="icon">🌐</text>
+    <text x="115" y="5655" class="file-text">index.html</text>
+    <line x1="75" y1="5675" x2="75" y2="5685" class="line"/>
+    <line x1="75" y1="5685" x2="85" y2="5685" class="line"/>
+    <text x="90" y="5690" class="icon">🖼️</text>
+    <text x="115" y="5690" class="file-text">logo.png</text>
+    <line x1="75" y1="5710" x2="75" y2="5720" class="line"/>
+    <line x1="75" y1="5720" x2="85" y2="5720" class="line"/>
+    <text x="90" y="5725" class="icon">📄</text>
+    <text x="115" y="5725" class="file-text">script.js</text>
+    <line x1="75" y1="5745" x2="75" y2="5755" class="line"/>
+    <line x1="75" y1="5755" x2="85" y2="5755" class="line"/>
+    <text x="90" y="5760" class="icon">🎨</text>
+    <text x="115" y="5760" class="file-text">style.css</text>
+    <line x1="15" y1="5835" x2="25" y2="5835" class="line"/>
+    <text x="30" y="5840" class="icon">📁</text>
+    <text x="55" y="5840" class="folder-text">13-Advanced-DOM-Bankist/</text>
+    <line x1="45" y1="5855" x2="45" y2="5865" class="line"/>
+    <line x1="45" y1="5865" x2="55" y2="5865" class="line"/>
+    <text x="60" y="5870" class="icon">📁</text>
+    <text x="85" y="5870" class="folder-text">final/</text>
+    <line x1="75" y1="5885" x2="75" y2="5895" class="line"/>
+    <line x1="75" y1="5895" x2="85" y2="5895" class="line"/>
+    <text x="90" y="5900" class="icon">📁</text>
+    <text x="115" y="5900" class="folder-text">img/</text>
+    <line x1="105" y1="5915" x2="105" y2="5925" class="line"/>
+    <line x1="105" y1="5925" x2="115" y2="5925" class="line"/>
+    <text x="120" y="5930" class="icon">🖼️</text>
+    <text x="145" y="5930" class="file-text">card-lazy.jpg</text>
+    <line x1="105" y1="5950" x2="105" y2="5960" class="line"/>
+    <line x1="105" y1="5960" x2="115" y2="5960" class="line"/>
+    <text x="120" y="5965" class="icon">🖼️</text>
+    <text x="145" y="5965" class="file-text">card.jpg</text>
+    <line x1="105" y1="5985" x2="105" y2="5995" class="line"/>
+    <line x1="105" y1="5995" x2="115" y2="5995" class="line"/>
+    <text x="120" y="6000" class="icon">🖼️</text>
+    <text x="145" y="6000" class="file-text">digital-lazy.jpg</text>
+    <line x1="105" y1="6020" x2="105" y2="6030" class="line"/>
+    <line x1="105" y1="6030" x2="115" y2="6030" class="line"/>
+    <text x="120" y="6035" class="icon">🖼️</text>
+    <text x="145" y="6035" class="file-text">digital.jpg</text>
+    <line x1="105" y1="6055" x2="105" y2="6065" class="line"/>
+    <line x1="105" y1="6065" x2="115" y2="6065" class="line"/>
+    <text x="120" y="6070" class="icon">🖼️</text>
+    <text x="145" y="6070" class="file-text">grow-lazy.jpg</text>
+    <line x1="105" y1="6090" x2="105" y2="6100" class="line"/>
+    <line x1="105" y1="6100" x2="115" y2="6100" class="line"/>
+    <text x="120" y="6105" class="icon">🖼️</text>
+    <text x="145" y="6105" class="file-text">grow.jpg</text>
+    <line x1="105" y1="6125" x2="105" y2="6135" class="line"/>
+    <line x1="105" y1="6135" x2="115" y2="6135" class="line"/>
+    <text x="120" y="6140" class="icon">🖼️</text>
+    <text x="145" y="6140" class="file-text">hero.png</text>
+    <line x1="105" y1="6160" x2="105" y2="6170" class="line"/>
+    <line x1="105" y1="6170" x2="115" y2="6170" class="line"/>
+    <text x="120" y="6175" class="icon">🖼️</text>
+    <text x="145" y="6175" class="file-text">icon.png</text>
+    <line x1="105" y1="6195" x2="105" y2="6205" class="line"/>
+    <line x1="105" y1="6205" x2="115" y2="6205" class="line"/>
+    <text x="120" y="6210" class="icon">🖼️</text>
+    <text x="145" y="6210" class="file-text">icons.svg</text>
+    <line x1="105" y1="6230" x2="105" y2="6240" class="line"/>
+    <line x1="105" y1="6240" x2="115" y2="6240" class="line"/>
+    <text x="120" y="6245" class="icon">🖼️</text>
+    <text x="145" y="6245" class="file-text">img-1.jpg</text>
+    <line x1="105" y1="6265" x2="105" y2="6275" class="line"/>
+    <line x1="105" y1="6275" x2="115" y2="6275" class="line"/>
+    <text x="120" y="6280" class="icon">🖼️</text>
+    <text x="145" y="6280" class="file-text">img-2.jpg</text>
+    <line x1="105" y1="6300" x2="105" y2="6310" class="line"/>
+    <line x1="105" y1="6310" x2="115" y2="6310" class="line"/>
+    <text x="120" y="6315" class="icon">🖼️</text>
+    <text x="145" y="6315" class="file-text">img-3.jpg</text>
+    <line x1="105" y1="6335" x2="105" y2="6345" class="line"/>
+    <line x1="105" y1="6345" x2="115" y2="6345" class="line"/>
+    <text x="120" y="6350" class="icon">🖼️</text>
+    <text x="145" y="6350" class="file-text">img-4.jpg</text>
+    <line x1="105" y1="6370" x2="105" y2="6380" class="line"/>
+    <line x1="105" y1="6380" x2="115" y2="6380" class="line"/>
+    <text x="120" y="6385" class="icon">🖼️</text>
+    <text x="145" y="6385" class="file-text">logo.png</text>
+    <line x1="105" y1="6405" x2="105" y2="6415" class="line"/>
+    <line x1="105" y1="6415" x2="115" y2="6415" class="line"/>
+    <text x="120" y="6420" class="icon">🖼️</text>
+    <text x="145" y="6420" class="file-text">user-1.jpg</text>
+    <line x1="105" y1="6440" x2="105" y2="6450" class="line"/>
+    <line x1="105" y1="6450" x2="115" y2="6450" class="line"/>
+    <text x="120" y="6455" class="icon">🖼️</text>
+    <text x="145" y="6455" class="file-text">user-2.jpg</text>
+    <line x1="105" y1="6475" x2="105" y2="6485" class="line"/>
+    <line x1="105" y1="6485" x2="115" y2="6485" class="line"/>
+    <text x="120" y="6490" class="icon">🖼️</text>
+    <text x="145" y="6490" class="file-text">user-3.jpg</text>
+    <line x1="75" y1="6545" x2="75" y2="6555" class="line"/>
+    <line x1="75" y1="6555" x2="85" y2="6555" class="line"/>
+    <text x="90" y="6560" class="icon">📄</text>
+    <text x="115" y="6560" class="file-text">.prettierrc</text>
+    <line x1="75" y1="6580" x2="75" y2="6590" class="line"/>
+    <line x1="75" y1="6590" x2="85" y2="6590" class="line"/>
+    <text x="90" y="6595" class="icon">🌐</text>
+    <text x="115" y="6595" class="file-text">index.html</text>
+    <line x1="75" y1="6615" x2="75" y2="6625" class="line"/>
+    <line x1="75" y1="6625" x2="85" y2="6625" class="line"/>
+    <text x="90" y="6630" class="icon">📄</text>
+    <text x="115" y="6630" class="file-text">script.js</text>
+    <line x1="75" y1="6650" x2="75" y2="6660" class="line"/>
+    <line x1="75" y1="6660" x2="85" y2="6660" class="line"/>
+    <text x="90" y="6665" class="icon">🎨</text>
+    <text x="115" y="6665" class="file-text">style.css</text>
+    <line x1="45" y1="6720" x2="45" y2="6730" class="line"/>
+    <line x1="45" y1="6730" x2="55" y2="6730" class="line"/>
+    <text x="60" y="6735" class="icon">📁</text>
+    <text x="85" y="6735" class="folder-text">starter/</text>
+    <line x1="75" y1="6750" x2="75" y2="6760" class="line"/>
+    <line x1="75" y1="6760" x2="85" y2="6760" class="line"/>
+    <text x="90" y="6765" class="icon">📁</text>
+    <text x="115" y="6765" class="folder-text">img/</text>
+    <line x1="105" y1="6780" x2="105" y2="6790" class="line"/>
+    <line x1="105" y1="6790" x2="115" y2="6790" class="line"/>
+    <text x="120" y="6795" class="icon">🖼️</text>
+    <text x="145" y="6795" class="file-text">card-lazy.jpg</text>
+    <line x1="105" y1="6815" x2="105" y2="6825" class="line"/>
+    <line x1="105" y1="6825" x2="115" y2="6825" class="line"/>
+    <text x="120" y="6830" class="icon">🖼️</text>
+    <text x="145" y="6830" class="file-text">card.jpg</text>
+    <line x1="105" y1="6850" x2="105" y2="6860" class="line"/>
+    <line x1="105" y1="6860" x2="115" y2="6860" class="line"/>
+    <text x="120" y="6865" class="icon">🖼️</text>
+    <text x="145" y="6865" class="file-text">digital-lazy.jpg</text>
+    <line x1="105" y1="6885" x2="105" y2="6895" class="line"/>
+    <line x1="105" y1="6895" x2="115" y2="6895" class="line"/>
+    <text x="120" y="6900" class="icon">🖼️</text>
+    <text x="145" y="6900" class="file-text">digital.jpg</text>
+    <line x1="105" y1="6920" x2="105" y2="6930" class="line"/>
+    <line x1="105" y1="6930" x2="115" y2="6930" class="line"/>
+    <text x="120" y="6935" class="icon">🖼️</text>
+    <text x="145" y="6935" class="file-text">grow-lazy.jpg</text>
+    <line x1="105" y1="6955" x2="105" y2="6965" class="line"/>
+    <line x1="105" y1="6965" x2="115" y2="6965" class="line"/>
+    <text x="120" y="6970" class="icon">🖼️</text>
+    <text x="145" y="6970" class="file-text">grow.jpg</text>
+    <line x1="105" y1="6990" x2="105" y2="7000" class="line"/>
+    <line x1="105" y1="7000" x2="115" y2="7000" class="line"/>
+    <text x="120" y="7005" class="icon">🖼️</text>
+    <text x="145" y="7005" class="file-text">hero.png</text>
+    <line x1="105" y1="7025" x2="105" y2="7035" class="line"/>
+    <line x1="105" y1="7035" x2="115" y2="7035" class="line"/>
+    <text x="120" y="7040" class="icon">🖼️</text>
+    <text x="145" y="7040" class="file-text">icon.png</text>
+    <line x1="105" y1="7060" x2="105" y2="7070" class="line"/>
+    <line x1="105" y1="7070" x2="115" y2="7070" class="line"/>
+    <text x="120" y="7075" class="icon">🖼️</text>
+    <text x="145" y="7075" class="file-text">icons.svg</text>
+    <line x1="105" y1="7095" x2="105" y2="7105" class="line"/>
+    <line x1="105" y1="7105" x2="115" y2="7105" class="line"/>
+    <text x="120" y="7110" class="icon">🖼️</text>
+    <text x="145" y="7110" class="file-text">img-1.jpg</text>
+    <line x1="105" y1="7130" x2="105" y2="7140" class="line"/>
+    <line x1="105" y1="7140" x2="115" y2="7140" class="line"/>
+    <text x="120" y="7145" class="icon">🖼️</text>
+    <text x="145" y="7145" class="file-text">img-2.jpg</text>
+    <line x1="105" y1="7165" x2="105" y2="7175" class="line"/>
+    <line x1="105" y1="7175" x2="115" y2="7175" class="line"/>
+    <text x="120" y="7180" class="icon">🖼️</text>
+    <text x="145" y="7180" class="file-text">img-3.jpg</text>
+    <line x1="105" y1="7200" x2="105" y2="7210" class="line"/>
+    <line x1="105" y1="7210" x2="115" y2="7210" class="line"/>
+    <text x="120" y="7215" class="icon">🖼️</text>
+    <text x="145" y="7215" class="file-text">img-4.jpg</text>
+    <line x1="105" y1="7235" x2="105" y2="7245" class="line"/>
+    <line x1="105" y1="7245" x2="115" y2="7245" class="line"/>
+    <text x="120" y="7250" class="icon">🖼️</text>
+    <text x="145" y="7250" class="file-text">logo.png</text>
+    <line x1="105" y1="7270" x2="105" y2="7280" class="line"/>
+    <line x1="105" y1="7280" x2="115" y2="7280" class="line"/>
+    <text x="120" y="7285" class="icon">🖼️</text>
+    <text x="145" y="7285" class="file-text">user-1.jpg</text>
+    <line x1="105" y1="7305" x2="105" y2="7315" class="line"/>
+    <line x1="105" y1="7315" x2="115" y2="7315" class="line"/>
+    <text x="120" y="7320" class="icon">🖼️</text>
+    <text x="145" y="7320" class="file-text">user-2.jpg</text>
+    <line x1="105" y1="7340" x2="105" y2="7350" class="line"/>
+    <line x1="105" y1="7350" x2="115" y2="7350" class="line"/>
+    <text x="120" y="7355" class="icon">🖼️</text>
+    <text x="145" y="7355" class="file-text">user-3.jpg</text>
+    <line x1="75" y1="7410" x2="75" y2="7420" class="line"/>
+    <line x1="75" y1="7420" x2="85" y2="7420" class="line"/>
+    <text x="90" y="7425" class="icon">📄</text>
+    <text x="115" y="7425" class="file-text">.prettierrc</text>
+    <line x1="75" y1="7445" x2="75" y2="7455" class="line"/>
+    <line x1="75" y1="7455" x2="85" y2="7455" class="line"/>
+    <text x="90" y="7460" class="icon">🌐</text>
+    <text x="115" y="7460" class="file-text">index.html</text>
+    <line x1="75" y1="7480" x2="75" y2="7490" class="line"/>
+    <line x1="75" y1="7490" x2="85" y2="7490" class="line"/>
+    <text x="90" y="7495" class="icon">📄</text>
+    <text x="115" y="7495" class="file-text">script.js</text>
+    <line x1="75" y1="7515" x2="75" y2="7525" class="line"/>
+    <line x1="75" y1="7525" x2="85" y2="7525" class="line"/>
+    <text x="90" y="7530" class="icon">🎨</text>
+    <text x="115" y="7530" class="file-text">style.css</text>
+    <line x1="75" y1="7550" x2="75" y2="7560" class="line"/>
+    <line x1="75" y1="7560" x2="85" y2="7560" class="line"/>
+    <text x="90" y="7565" class="icon">📄</text>
+    <text x="115" y="7565" class="file-text">tutorial.js</text>
+    <line x1="15" y1="7640" x2="25" y2="7640" class="line"/>
+    <text x="30" y="7645" class="icon">📁</text>
+    <text x="55" y="7645" class="folder-text">14-OOP/</text>
+    <line x1="45" y1="7660" x2="45" y2="7670" class="line"/>
+    <line x1="45" y1="7670" x2="55" y2="7670" class="line"/>
+    <text x="60" y="7675" class="icon">📁</text>
+    <text x="85" y="7675" class="folder-text">final/</text>
+    <line x1="75" y1="7690" x2="75" y2="7700" class="line"/>
+    <line x1="75" y1="7700" x2="85" y2="7700" class="line"/>
+    <text x="90" y="7705" class="icon">📄</text>
+    <text x="115" y="7705" class="file-text">.prettierrc</text>
+    <line x1="75" y1="7725" x2="75" y2="7735" class="line"/>
+    <line x1="75" y1="7735" x2="85" y2="7735" class="line"/>
+    <text x="90" y="7740" class="icon">🌐</text>
+    <text x="115" y="7740" class="file-text">index.html</text>
+    <line x1="75" y1="7760" x2="75" y2="7770" class="line"/>
+    <line x1="75" y1="7770" x2="85" y2="7770" class="line"/>
+    <text x="90" y="7775" class="icon">📄</text>
+    <text x="115" y="7775" class="file-text">script.js</text>
+    <line x1="45" y1="7830" x2="45" y2="7840" class="line"/>
+    <line x1="45" y1="7840" x2="55" y2="7840" class="line"/>
+    <text x="60" y="7845" class="icon">📁</text>
+    <text x="85" y="7845" class="folder-text">starter/</text>
+    <line x1="75" y1="7860" x2="75" y2="7870" class="line"/>
+    <line x1="75" y1="7870" x2="85" y2="7870" class="line"/>
+    <text x="90" y="7875" class="icon">📄</text>
+    <text x="115" y="7875" class="file-text">.prettierrc</text>
+    <line x1="75" y1="7895" x2="75" y2="7905" class="line"/>
+    <line x1="75" y1="7905" x2="85" y2="7905" class="line"/>
+    <text x="90" y="7910" class="icon">🌐</text>
+    <text x="115" y="7910" class="file-text">index.html</text>
+    <line x1="75" y1="7930" x2="75" y2="7940" class="line"/>
+    <line x1="75" y1="7940" x2="85" y2="7940" class="line"/>
+    <text x="90" y="7945" class="icon">📄</text>
+    <text x="115" y="7945" class="file-text">index.js</text>
+    <line x1="75" y1="7965" x2="75" y2="7975" class="line"/>
+    <line x1="75" y1="7975" x2="85" y2="7975" class="line"/>
+    <text x="90" y="7980" class="icon">📄</text>
+    <text x="115" y="7980" class="file-text">script.js</text>
+    <line x1="15" y1="8055" x2="25" y2="8055" class="line"/>
+    <text x="30" y="8060" class="icon">📁</text>
+    <text x="55" y="8060" class="folder-text">15-Mapty/</text>
+    <line x1="45" y1="8075" x2="45" y2="8085" class="line"/>
+    <line x1="45" y1="8085" x2="55" y2="8085" class="line"/>
+    <text x="60" y="8090" class="icon">📁</text>
+    <text x="85" y="8090" class="folder-text">final/</text>
+    <line x1="75" y1="8105" x2="75" y2="8115" class="line"/>
+    <line x1="75" y1="8115" x2="85" y2="8115" class="line"/>
+    <text x="90" y="8120" class="icon">📄</text>
+    <text x="115" y="8120" class="file-text">.prettierrc</text>
+    <line x1="75" y1="8140" x2="75" y2="8150" class="line"/>
+    <line x1="75" y1="8150" x2="85" y2="8150" class="line"/>
+    <text x="90" y="8155" class="icon">🖼️</text>
+    <text x="115" y="8155" class="file-text">Mapty-architecture-final.png</text>
+    <line x1="75" y1="8175" x2="75" y2="8185" class="line"/>
+    <line x1="75" y1="8185" x2="85" y2="8185" class="line"/>
+    <text x="90" y="8190" class="icon">🖼️</text>
+    <text x="115" y="8190" class="file-text">Mapty-architecture-part-1.png</text>
+    <line x1="75" y1="8210" x2="75" y2="8220" class="line"/>
+    <line x1="75" y1="8220" x2="85" y2="8220" class="line"/>
+    <text x="90" y="8225" class="icon">🖼️</text>
+    <text x="115" y="8225" class="file-text">Mapty-flowchart.png</text>
+    <line x1="75" y1="8245" x2="75" y2="8255" class="line"/>
+    <line x1="75" y1="8255" x2="85" y2="8255" class="line"/>
+    <text x="90" y="8260" class="icon">🖼️</text>
+    <text x="115" y="8260" class="file-text">icon.png</text>
+    <line x1="75" y1="8280" x2="75" y2="8290" class="line"/>
+    <line x1="75" y1="8290" x2="85" y2="8290" class="line"/>
+    <text x="90" y="8295" class="icon">🌐</text>
+    <text x="115" y="8295" class="file-text">index.html</text>
+    <line x1="75" y1="8315" x2="75" y2="8325" class="line"/>
+    <line x1="75" y1="8325" x2="85" y2="8325" class="line"/>
+    <text x="90" y="8330" class="icon">🖼️</text>
+    <text x="115" y="8330" class="file-text">logo.png</text>
+    <line x1="75" y1="8350" x2="75" y2="8360" class="line"/>
+    <line x1="75" y1="8360" x2="85" y2="8360" class="line"/>
+    <text x="90" y="8365" class="icon">📄</text>
+    <text x="115" y="8365" class="file-text">other.js</text>
+    <line x1="75" y1="8385" x2="75" y2="8395" class="line"/>
+    <line x1="75" y1="8395" x2="85" y2="8395" class="line"/>
+    <text x="90" y="8400" class="icon">📄</text>
+    <text x="115" y="8400" class="file-text">script.js</text>
+    <line x1="75" y1="8420" x2="75" y2="8430" class="line"/>
+    <line x1="75" y1="8430" x2="85" y2="8430" class="line"/>
+    <text x="90" y="8435" class="icon">🎨</text>
+    <text x="115" y="8435" class="file-text">style.css</text>
+    <line x1="45" y1="8490" x2="45" y2="8500" class="line"/>
+    <line x1="45" y1="8500" x2="55" y2="8500" class="line"/>
+    <text x="60" y="8505" class="icon">📁</text>
+    <text x="85" y="8505" class="folder-text">starter/</text>
+    <line x1="75" y1="8520" x2="75" y2="8530" class="line"/>
+    <line x1="75" y1="8530" x2="85" y2="8530" class="line"/>
+    <text x="90" y="8535" class="icon">📄</text>
+    <text x="115" y="8535" class="file-text">.prettierrc</text>
+    <line x1="75" y1="8555" x2="75" y2="8565" class="line"/>
+    <line x1="75" y1="8565" x2="85" y2="8565" class="line"/>
+    <text x="90" y="8570" class="icon">🖼️</text>
+    <text x="115" y="8570" class="file-text">Mapty-architecture-final.png</text>
+    <line x1="75" y1="8590" x2="75" y2="8600" class="line"/>
+    <line x1="75" y1="8600" x2="85" y2="8600" class="line"/>
+    <text x="90" y="8605" class="icon">🖼️</text>
+    <text x="115" y="8605" class="file-text">Mapty-architecture-part-1.png</text>
+    <line x1="75" y1="8625" x2="75" y2="8635" class="line"/>
+    <line x1="75" y1="8635" x2="85" y2="8635" class="line"/>
+    <text x="90" y="8640" class="icon">🖼️</text>
+    <text x="115" y="8640" class="file-text">Mapty-flowchart.png</text>
+    <line x1="75" y1="8660" x2="75" y2="8670" class="line"/>
+    <line x1="75" y1="8670" x2="85" y2="8670" class="line"/>
+    <text x="90" y="8675" class="icon">🖼️</text>
+    <text x="115" y="8675" class="file-text">icon.png</text>
+    <line x1="75" y1="8695" x2="75" y2="8705" class="line"/>
+    <line x1="75" y1="8705" x2="85" y2="8705" class="line"/>
+    <text x="90" y="8710" class="icon">🌐</text>
+    <text x="115" y="8710" class="file-text">index.html</text>
+    <line x1="75" y1="8730" x2="75" y2="8740" class="line"/>
+    <line x1="75" y1="8740" x2="85" y2="8740" class="line"/>
+    <text x="90" y="8745" class="icon">🖼️</text>
+    <text x="115" y="8745" class="file-text">logo.png</text>
+    <line x1="75" y1="8765" x2="75" y2="8775" class="line"/>
+    <line x1="75" y1="8775" x2="85" y2="8775" class="line"/>
+    <text x="90" y="8780" class="icon">📄</text>
+    <text x="115" y="8780" class="file-text">script.js</text>
+    <line x1="75" y1="8800" x2="75" y2="8810" class="line"/>
+    <line x1="75" y1="8810" x2="85" y2="8810" class="line"/>
+    <text x="90" y="8815" class="icon">🎨</text>
+    <text x="115" y="8815" class="file-text">style.css</text>
+    <line x1="15" y1="8890" x2="25" y2="8890" class="line"/>
+    <text x="30" y="8895" class="icon">📁</text>
+    <text x="55" y="8895" class="folder-text">16-Asynchronous/</text>
+    <line x1="45" y1="8910" x2="45" y2="8920" class="line"/>
+    <line x1="45" y1="8920" x2="55" y2="8920" class="line"/>
+    <text x="60" y="8925" class="icon">📁</text>
+    <text x="85" y="8925" class="folder-text">final/</text>
+    <line x1="75" y1="8940" x2="75" y2="8950" class="line"/>
+    <line x1="75" y1="8950" x2="85" y2="8950" class="line"/>
+    <text x="90" y="8955" class="icon">📁</text>
+    <text x="115" y="8955" class="folder-text">img/</text>
+    <line x1="105" y1="8970" x2="105" y2="8980" class="line"/>
+    <line x1="105" y1="8980" x2="115" y2="8980" class="line"/>
+    <text x="120" y="8985" class="icon">🖼️</text>
+    <text x="145" y="8985" class="file-text">img-1.jpg</text>
+    <line x1="105" y1="9005" x2="105" y2="9015" class="line"/>
+    <line x1="105" y1="9015" x2="115" y2="9015" class="line"/>
+    <text x="120" y="9020" class="icon">🖼️</text>
+    <text x="145" y="9020" class="file-text">img-2.jpg</text>
+    <line x1="105" y1="9040" x2="105" y2="9050" class="line"/>
+    <line x1="105" y1="9050" x2="115" y2="9050" class="line"/>
+    <text x="120" y="9055" class="icon">🖼️</text>
+    <text x="145" y="9055" class="file-text">img-3.jpg</text>
+    <line x1="75" y1="9110" x2="75" y2="9120" class="line"/>
+    <line x1="75" y1="9120" x2="85" y2="9120" class="line"/>
+    <text x="90" y="9125" class="icon">📄</text>
+    <text x="115" y="9125" class="file-text">.prettierrc</text>
+    <line x1="75" y1="9145" x2="75" y2="9155" class="line"/>
+    <line x1="75" y1="9155" x2="85" y2="9155" class="line"/>
+    <text x="90" y="9160" class="icon">🌐</text>
+    <text x="115" y="9160" class="file-text">index.html</text>
+    <line x1="75" y1="9180" x2="75" y2="9190" class="line"/>
+    <line x1="75" y1="9190" x2="85" y2="9190" class="line"/>
+    <text x="90" y="9195" class="icon">📄</text>
+    <text x="115" y="9195" class="file-text">script.js</text>
+    <line x1="75" y1="9215" x2="75" y2="9225" class="line"/>
+    <line x1="75" y1="9225" x2="85" y2="9225" class="line"/>
+    <text x="90" y="9230" class="icon">🎨</text>
+    <text x="115" y="9230" class="file-text">style.css</text>
+    <line x1="45" y1="9285" x2="45" y2="9295" class="line"/>
+    <line x1="45" y1="9295" x2="55" y2="9295" class="line"/>
+    <text x="60" y="9300" class="icon">📁</text>
+    <text x="85" y="9300" class="folder-text">starter/</text>
+    <line x1="75" y1="9315" x2="75" y2="9325" class="line"/>
+    <line x1="75" y1="9325" x2="85" y2="9325" class="line"/>
+    <text x="90" y="9330" class="icon">📁</text>
+    <text x="115" y="9330" class="folder-text">img/</text>
+    <line x1="105" y1="9345" x2="105" y2="9355" class="line"/>
+    <line x1="105" y1="9355" x2="115" y2="9355" class="line"/>
+    <text x="120" y="9360" class="icon">🖼️</text>
+    <text x="145" y="9360" class="file-text">img-1.jpg</text>
+    <line x1="105" y1="9380" x2="105" y2="9390" class="line"/>
+    <line x1="105" y1="9390" x2="115" y2="9390" class="line"/>
+    <text x="120" y="9395" class="icon">🖼️</text>
+    <text x="145" y="9395" class="file-text">img-2.jpg</text>
+    <line x1="105" y1="9415" x2="105" y2="9425" class="line"/>
+    <line x1="105" y1="9425" x2="115" y2="9425" class="line"/>
+    <text x="120" y="9430" class="icon">🖼️</text>
+    <text x="145" y="9430" class="file-text">img-3.jpg</text>
+    <line x1="75" y1="9485" x2="75" y2="9495" class="line"/>
+    <line x1="75" y1="9495" x2="85" y2="9495" class="line"/>
+    <text x="90" y="9500" class="icon">📄</text>
+    <text x="115" y="9500" class="file-text">.prettierrc</text>
+    <line x1="75" y1="9520" x2="75" y2="9530" class="line"/>
+    <line x1="75" y1="9530" x2="85" y2="9530" class="line"/>
+    <text x="90" y="9535" class="icon">🌐</text>
+    <text x="115" y="9535" class="file-text">index.html</text>
+    <line x1="75" y1="9555" x2="75" y2="9565" class="line"/>
+    <line x1="75" y1="9565" x2="85" y2="9565" class="line"/>
+    <text x="90" y="9570" class="icon">📄</text>
+    <text x="115" y="9570" class="file-text">script.js</text>
+    <line x1="75" y1="9590" x2="75" y2="9600" class="line"/>
+    <line x1="75" y1="9600" x2="85" y2="9600" class="line"/>
+    <text x="90" y="9605" class="icon">🎨</text>
+    <text x="115" y="9605" class="file-text">style.css</text>
+    <line x1="15" y1="9680" x2="25" y2="9680" class="line"/>
+    <text x="30" y="9685" class="icon">📁</text>
+    <text x="55" y="9685" class="folder-text">17-Modern-JS-Modules-Tooling/</text>
+    <line x1="45" y1="9700" x2="45" y2="9710" class="line"/>
+    <line x1="45" y1="9710" x2="55" y2="9710" class="line"/>
+    <text x="60" y="9715" class="icon">📁</text>
+    <text x="85" y="9715" class="folder-text">final/</text>
+    <line x1="75" y1="9730" x2="75" y2="9740" class="line"/>
+    <line x1="75" y1="9740" x2="85" y2="9740" class="line"/>
+    <text x="90" y="9745" class="icon">📄</text>
+    <text x="115" y="9745" class="file-text">.prettierrc</text>
+    <line x1="75" y1="9765" x2="75" y2="9775" class="line"/>
+    <line x1="75" y1="9775" x2="85" y2="9775" class="line"/>
+    <text x="90" y="9780" class="icon">📄</text>
+    <text x="115" y="9780" class="file-text">clean.js</text>
+    <line x1="75" y1="9800" x2="75" y2="9810" class="line"/>
+    <line x1="75" y1="9810" x2="85" y2="9810" class="line"/>
+    <text x="90" y="9815" class="icon">🌐</text>
+    <text x="115" y="9815" class="file-text">index.html</text>
+    <line x1="75" y1="9835" x2="75" y2="9845" class="line"/>
+    <line x1="75" y1="9845" x2="85" y2="9845" class="line"/>
+    <text x="90" y="9850" class="icon">📄</text>
+    <text x="115" y="9850" class="file-text">package-lock.json</text>
+    <line x1="75" y1="9870" x2="75" y2="9880" class="line"/>
+    <line x1="75" y1="9880" x2="85" y2="9880" class="line"/>
+    <text x="90" y="9885" class="icon">📄</text>
+    <text x="115" y="9885" class="file-text">package.json</text>
+    <line x1="75" y1="9905" x2="75" y2="9915" class="line"/>
+    <line x1="75" y1="9915" x2="85" y2="9915" class="line"/>
+    <text x="90" y="9920" class="icon">📄</text>
+    <text x="115" y="9920" class="file-text">script.js</text>
+    <line x1="75" y1="9940" x2="75" y2="9950" class="line"/>
+    <line x1="75" y1="9950" x2="85" y2="9950" class="line"/>
+    <text x="90" y="9955" class="icon">📄</text>
+    <text x="115" y="9955" class="file-text">shoppingCart.js</text>
+    <line x1="45" y1="10010" x2="45" y2="10020" class="line"/>
+    <line x1="45" y1="10020" x2="55" y2="10020" class="line"/>
+    <text x="60" y="10025" class="icon">📁</text>
+    <text x="85" y="10025" class="folder-text">starter/</text>
+    <line x1="75" y1="10040" x2="75" y2="10050" class="line"/>
+    <line x1="75" y1="10050" x2="85" y2="10050" class="line"/>
+    <text x="90" y="10055" class="icon">📄</text>
+    <text x="115" y="10055" class="file-text">.prettierrc</text>
+    <line x1="75" y1="10075" x2="75" y2="10085" class="line"/>
+    <line x1="75" y1="10085" x2="85" y2="10085" class="line"/>
+    <text x="90" y="10090" class="icon">📄</text>
+    <text x="115" y="10090" class="file-text">clean.js</text>
+    <line x1="75" y1="10110" x2="75" y2="10120" class="line"/>
+    <line x1="75" y1="10120" x2="85" y2="10120" class="line"/>
+    <text x="90" y="10125" class="icon">🌐</text>
+    <text x="115" y="10125" class="file-text">index.html</text>
+    <line x1="75" y1="10145" x2="75" y2="10155" class="line"/>
+    <line x1="75" y1="10155" x2="85" y2="10155" class="line"/>
+    <text x="90" y="10160" class="icon">📄</text>
+    <text x="115" y="10160" class="file-text">script.js</text>
+    <line x1="15" y1="10235" x2="25" y2="10235" class="line"/>
+    <text x="30" y="10240" class="icon">📁</text>
+    <text x="55" y="10240" class="folder-text">18-forkify/</text>
+    <line x1="45" y1="10255" x2="45" y2="10265" class="line"/>
+    <line x1="45" y1="10265" x2="55" y2="10265" class="line"/>
+    <text x="60" y="10270" class="icon">📁</text>
+    <text x="85" y="10270" class="folder-text">final/</text>
+    <line x1="75" y1="10285" x2="75" y2="10295" class="line"/>
+    <line x1="75" y1="10295" x2="85" y2="10295" class="line"/>
+    <text x="90" y="10300" class="icon">📁</text>
+    <text x="115" y="10300" class="folder-text">src/</text>
+    <line x1="105" y1="10315" x2="105" y2="10325" class="line"/>
+    <line x1="105" y1="10325" x2="115" y2="10325" class="line"/>
+    <text x="120" y="10330" class="icon">📁</text>
+    <text x="145" y="10330" class="folder-text">img/</text>
+    <line x1="135" y1="10345" x2="135" y2="10355" class="line"/>
+    <line x1="135" y1="10355" x2="145" y2="10355" class="line"/>
+    <text x="150" y="10360" class="icon">🖼️</text>
+    <text x="175" y="10360" class="file-text">favicon.png</text>
+    <line x1="135" y1="10380" x2="135" y2="10390" class="line"/>
+    <line x1="135" y1="10390" x2="145" y2="10390" class="line"/>
+    <text x="150" y="10395" class="icon">🖼️</text>
+    <text x="175" y="10395" class="file-text">icons.svg</text>
+    <line x1="135" y1="10415" x2="135" y2="10425" class="line"/>
+    <line x1="135" y1="10425" x2="145" y2="10425" class="line"/>
+    <text x="150" y="10430" class="icon">🖼️</text>
+    <text x="175" y="10430" class="file-text">logo.png</text>
+    <line x1="105" y1="10485" x2="105" y2="10495" class="line"/>
+    <line x1="105" y1="10495" x2="115" y2="10495" class="line"/>
+    <text x="120" y="10500" class="icon">📁</text>
+    <text x="145" y="10500" class="folder-text">js/</text>
+    <line x1="135" y1="10515" x2="135" y2="10525" class="line"/>
+    <line x1="135" y1="10525" x2="145" y2="10525" class="line"/>
+    <text x="150" y="10530" class="icon">📁</text>
+    <text x="175" y="10530" class="folder-text">views/</text>
+    <line x1="165" y1="10545" x2="165" y2="10555" class="line"/>
+    <line x1="165" y1="10555" x2="175" y2="10555" class="line"/>
+    <text x="180" y="10560" class="icon">📄</text>
+    <text x="205" y="10560" class="file-text">View.js</text>
+    <line x1="165" y1="10580" x2="165" y2="10590" class="line"/>
+    <line x1="165" y1="10590" x2="175" y2="10590" class="line"/>
+    <text x="180" y="10595" class="icon">📄</text>
+    <text x="205" y="10595" class="file-text">addRecipeView.js</text>
+    <line x1="165" y1="10615" x2="165" y2="10625" class="line"/>
+    <line x1="165" y1="10625" x2="175" y2="10625" class="line"/>
+    <text x="180" y="10630" class="icon">📄</text>
+    <text x="205" y="10630" class="file-text">bookmarksView.js</text>
+    <line x1="165" y1="10650" x2="165" y2="10660" class="line"/>
+    <line x1="165" y1="10660" x2="175" y2="10660" class="line"/>
+    <text x="180" y="10665" class="icon">📄</text>
+    <text x="205" y="10665" class="file-text">paginationView.js</text>
+    <line x1="165" y1="10685" x2="165" y2="10695" class="line"/>
+    <line x1="165" y1="10695" x2="175" y2="10695" class="line"/>
+    <text x="180" y="10700" class="icon">📄</text>
+    <text x="205" y="10700" class="file-text">previewView.js</text>
+    <line x1="165" y1="10720" x2="165" y2="10730" class="line"/>
+    <line x1="165" y1="10730" x2="175" y2="10730" class="line"/>
+    <text x="180" y="10735" class="icon">📄</text>
+    <text x="205" y="10735" class="file-text">recipeView.js</text>
+    <line x1="165" y1="10755" x2="165" y2="10765" class="line"/>
+    <line x1="165" y1="10765" x2="175" y2="10765" class="line"/>
+    <text x="180" y="10770" class="icon">📄</text>
+    <text x="205" y="10770" class="file-text">resultsView.js</text>
+    <line x1="165" y1="10790" x2="165" y2="10800" class="line"/>
+    <line x1="165" y1="10800" x2="175" y2="10800" class="line"/>
+    <text x="180" y="10805" class="icon">📄</text>
+    <text x="205" y="10805" class="file-text">searchView.js</text>
+    <line x1="135" y1="10860" x2="135" y2="10870" class="line"/>
+    <line x1="135" y1="10870" x2="145" y2="10870" class="line"/>
+    <text x="150" y="10875" class="icon">📄</text>
+    <text x="175" y="10875" class="file-text">config.js</text>
+    <line x1="135" y1="10895" x2="135" y2="10905" class="line"/>
+    <line x1="135" y1="10905" x2="145" y2="10905" class="line"/>
+    <text x="150" y="10910" class="icon">📄</text>
+    <text x="175" y="10910" class="file-text">controller.js</text>
+    <line x1="135" y1="10930" x2="135" y2="10940" class="line"/>
+    <line x1="135" y1="10940" x2="145" y2="10940" class="line"/>
+    <text x="150" y="10945" class="icon">📄</text>
+    <text x="175" y="10945" class="file-text">helpers.js</text>
+    <line x1="135" y1="10965" x2="135" y2="10975" class="line"/>
+    <line x1="135" y1="10975" x2="145" y2="10975" class="line"/>
+    <text x="150" y="10980" class="icon">📄</text>
+    <text x="175" y="10980" class="file-text">model.js</text>
+    <line x1="105" y1="11035" x2="105" y2="11045" class="line"/>
+    <line x1="105" y1="11045" x2="115" y2="11045" class="line"/>
+    <text x="120" y="11050" class="icon">📁</text>
+    <text x="145" y="11050" class="folder-text">sass/</text>
+    <line x1="135" y1="11065" x2="135" y2="11075" class="line"/>
+    <line x1="135" y1="11075" x2="145" y2="11075" class="line"/>
+    <text x="150" y="11080" class="icon">🎨</text>
+    <text x="175" y="11080" class="file-text">_base.scss</text>
+    <line x1="135" y1="11100" x2="135" y2="11110" class="line"/>
+    <line x1="135" y1="11110" x2="145" y2="11110" class="line"/>
+    <text x="150" y="11115" class="icon">🎨</text>
+    <text x="175" y="11115" class="file-text">_components.scss</text>
+    <line x1="135" y1="11135" x2="135" y2="11145" class="line"/>
+    <line x1="135" y1="11145" x2="145" y2="11145" class="line"/>
+    <text x="150" y="11150" class="icon">🎨</text>
+    <text x="175" y="11150" class="file-text">_header.scss</text>
+    <line x1="135" y1="11170" x2="135" y2="11180" class="line"/>
+    <line x1="135" y1="11180" x2="145" y2="11180" class="line"/>
+    <text x="150" y="11185" class="icon">🎨</text>
+    <text x="175" y="11185" class="file-text">_preview.scss</text>
+    <line x1="135" y1="11205" x2="135" y2="11215" class="line"/>
+    <line x1="135" y1="11215" x2="145" y2="11215" class="line"/>
+    <text x="150" y="11220" class="icon">🎨</text>
+    <text x="175" y="11220" class="file-text">_recipe.scss</text>
+    <line x1="135" y1="11240" x2="135" y2="11250" class="line"/>
+    <line x1="135" y1="11250" x2="145" y2="11250" class="line"/>
+    <text x="150" y="11255" class="icon">🎨</text>
+    <text x="175" y="11255" class="file-text">_searchResults.scss</text>
+    <line x1="135" y1="11275" x2="135" y2="11285" class="line"/>
+    <line x1="135" y1="11285" x2="145" y2="11285" class="line"/>
+    <text x="150" y="11290" class="icon">🎨</text>
+    <text x="175" y="11290" class="file-text">_upload.scss</text>
+    <line x1="135" y1="11310" x2="135" y2="11320" class="line"/>
+    <line x1="135" y1="11320" x2="145" y2="11320" class="line"/>
+    <text x="150" y="11325" class="icon">🎨</text>
+    <text x="175" y="11325" class="file-text">main.scss</text>
+    <line x1="75" y1="11415" x2="75" y2="11425" class="line"/>
+    <line x1="75" y1="11425" x2="85" y2="11425" class="line"/>
+    <text x="90" y="11430" class="icon">🚫</text>
+    <text x="115" y="11430" class="file-text">.gitignore</text>
+    <line x1="75" y1="11450" x2="75" y2="11460" class="line"/>
+    <line x1="75" y1="11460" x2="85" y2="11460" class="line"/>
+    <text x="90" y="11465" class="icon">📄</text>
+    <text x="115" y="11465" class="file-text">.prettierrc</text>
+    <line x1="75" y1="11485" x2="75" y2="11495" class="line"/>
+    <line x1="75" y1="11495" x2="85" y2="11495" class="line"/>
+    <text x="90" y="11500" class="icon">📖</text>
+    <text x="115" y="11500" class="file-text">README.md</text>
+    <line x1="75" y1="11520" x2="75" y2="11530" class="line"/>
+    <line x1="75" y1="11530" x2="85" y2="11530" class="line"/>
+    <text x="90" y="11535" class="icon">🌐</text>
+    <text x="115" y="11535" class="file-text">index.html</text>
+    <line x1="75" y1="11555" x2="75" y2="11565" class="line"/>
+    <line x1="75" y1="11565" x2="85" y2="11565" class="line"/>
+    <text x="90" y="11570" class="icon">📄</text>
+    <text x="115" y="11570" class="file-text">package-lock.json</text>
+    <line x1="75" y1="11590" x2="75" y2="11600" class="line"/>
+    <line x1="75" y1="11600" x2="85" y2="11600" class="line"/>
+    <text x="90" y="11605" class="icon">📄</text>
+    <text x="115" y="11605" class="file-text">package.json</text>
+    <line x1="45" y1="11660" x2="45" y2="11670" class="line"/>
+    <line x1="45" y1="11670" x2="55" y2="11670" class="line"/>
+    <text x="60" y="11675" class="icon">📁</text>
+    <text x="85" y="11675" class="folder-text">starter/</text>
+    <line x1="75" y1="11690" x2="75" y2="11700" class="line"/>
+    <line x1="75" y1="11700" x2="85" y2="11700" class="line"/>
+    <text x="90" y="11705" class="icon">📁</text>
+    <text x="115" y="11705" class="folder-text">src/</text>
+    <line x1="105" y1="11720" x2="105" y2="11730" class="line"/>
+    <line x1="105" y1="11730" x2="115" y2="11730" class="line"/>
+    <text x="120" y="11735" class="icon">📁</text>
+    <text x="145" y="11735" class="folder-text">img/</text>
+    <line x1="135" y1="11750" x2="135" y2="11760" class="line"/>
+    <line x1="135" y1="11760" x2="145" y2="11760" class="line"/>
+    <text x="150" y="11765" class="icon">🖼️</text>
+    <text x="175" y="11765" class="file-text">favicon.png</text>
+    <line x1="135" y1="11785" x2="135" y2="11795" class="line"/>
+    <line x1="135" y1="11795" x2="145" y2="11795" class="line"/>
+    <text x="150" y="11800" class="icon">🖼️</text>
+    <text x="175" y="11800" class="file-text">icons.svg</text>
+    <line x1="135" y1="11820" x2="135" y2="11830" class="line"/>
+    <line x1="135" y1="11830" x2="145" y2="11830" class="line"/>
+    <text x="150" y="11835" class="icon">🖼️</text>
+    <text x="175" y="11835" class="file-text">logo.png</text>
+    <line x1="105" y1="11890" x2="105" y2="11900" class="line"/>
+    <line x1="105" y1="11900" x2="115" y2="11900" class="line"/>
+    <text x="120" y="11905" class="icon">📁</text>
+    <text x="145" y="11905" class="folder-text">js/</text>
+    <line x1="135" y1="11920" x2="135" y2="11930" class="line"/>
+    <line x1="135" y1="11930" x2="145" y2="11930" class="line"/>
+    <text x="150" y="11935" class="icon">📄</text>
+    <text x="175" y="11935" class="file-text">controller.js</text>
+    <line x1="105" y1="11990" x2="105" y2="12000" class="line"/>
+    <line x1="105" y1="12000" x2="115" y2="12000" class="line"/>
+    <text x="120" y="12005" class="icon">📁</text>
+    <text x="145" y="12005" class="folder-text">sass/</text>
+    <line x1="135" y1="12020" x2="135" y2="12030" class="line"/>
+    <line x1="135" y1="12030" x2="145" y2="12030" class="line"/>
+    <text x="150" y="12035" class="icon">🎨</text>
+    <text x="175" y="12035" class="file-text">_base.scss</text>
+    <line x1="135" y1="12055" x2="135" y2="12065" class="line"/>
+    <line x1="135" y1="12065" x2="145" y2="12065" class="line"/>
+    <text x="150" y="12070" class="icon">🎨</text>
+    <text x="175" y="12070" class="file-text">_components.scss</text>
+    <line x1="135" y1="12090" x2="135" y2="12100" class="line"/>
+    <line x1="135" y1="12100" x2="145" y2="12100" class="line"/>
+    <text x="150" y="12105" class="icon">🎨</text>
+    <text x="175" y="12105" class="file-text">_header.scss</text>
+    <line x1="135" y1="12125" x2="135" y2="12135" class="line"/>
+    <line x1="135" y1="12135" x2="145" y2="12135" class="line"/>
+    <text x="150" y="12140" class="icon">🎨</text>
+    <text x="175" y="12140" class="file-text">_preview.scss</text>
+    <line x1="135" y1="12160" x2="135" y2="12170" class="line"/>
+    <line x1="135" y1="12170" x2="145" y2="12170" class="line"/>
+    <text x="150" y="12175" class="icon">🎨</text>
+    <text x="175" y="12175" class="file-text">_recipe.scss</text>
+    <line x1="135" y1="12195" x2="135" y2="12205" class="line"/>
+    <line x1="135" y1="12205" x2="145" y2="12205" class="line"/>
+    <text x="150" y="12210" class="icon">🎨</text>
+    <text x="175" y="12210" class="file-text">_searchResults.scss</text>
+    <line x1="135" y1="12230" x2="135" y2="12240" class="line"/>
+    <line x1="135" y1="12240" x2="145" y2="12240" class="line"/>
+    <text x="150" y="12245" class="icon">🎨</text>
+    <text x="175" y="12245" class="file-text">_upload.scss</text>
+    <line x1="135" y1="12265" x2="135" y2="12275" class="line"/>
+    <line x1="135" y1="12275" x2="145" y2="12275" class="line"/>
+    <text x="150" y="12280" class="icon">🎨</text>
+    <text x="175" y="12280" class="file-text">main.scss</text>
+    <line x1="75" y1="12370" x2="75" y2="12380" class="line"/>
+    <line x1="75" y1="12380" x2="85" y2="12380" class="line"/>
+    <text x="90" y="12385" class="icon">📄</text>
+    <text x="115" y="12385" class="file-text">.prettierrc</text>
+    <line x1="75" y1="12405" x2="75" y2="12415" class="line"/>
+    <line x1="75" y1="12415" x2="85" y2="12415" class="line"/>
+    <text x="90" y="12420" class="icon">🖼️</text>
+    <text x="115" y="12420" class="file-text">forkify-architecture-recipe-loading.png</text>
+    <line x1="75" y1="12440" x2="75" y2="12450" class="line"/>
+    <line x1="75" y1="12450" x2="85" y2="12450" class="line"/>
+    <text x="90" y="12455" class="icon">🖼️</text>
+    <text x="115" y="12455" class="file-text">forkify-flowchart-part-1.png</text>
+    <line x1="75" y1="12475" x2="75" y2="12485" class="line"/>
+    <line x1="75" y1="12485" x2="85" y2="12485" class="line"/>
+    <text x="90" y="12490" class="icon">🖼️</text>
+    <text x="115" y="12490" class="file-text">forkify-flowchart-part-2.png</text>
+    <line x1="75" y1="12510" x2="75" y2="12520" class="line"/>
+    <line x1="75" y1="12520" x2="85" y2="12520" class="line"/>
+    <text x="90" y="12525" class="icon">🖼️</text>
+    <text x="115" y="12525" class="file-text">forkify-flowchart-part-3.png</text>
+    <line x1="75" y1="12545" x2="75" y2="12555" class="line"/>
+    <line x1="75" y1="12555" x2="85" y2="12555" class="line"/>
+    <text x="90" y="12560" class="icon">🌐</text>
+    <text x="115" y="12560" class="file-text">index.html</text>
+    <line x1="15" y1="12635" x2="25" y2="12635" class="line"/>
+    <text x="30" y="12640" class="icon">📖</text>
+    <text x="55" y="12640" class="file-text">README.md</text>
+</svg>

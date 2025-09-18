@@ -231,18 +231,4 @@ dotContainer.addEventListener('click', function (e) {
     activateDot(curSlide);
   }
 });
-////////////////////////////////////////////////////////////////////////////
-document.addEventListener('DOMContentLoaded', function(e){
-  // console.log('HTML Parsed and Dom tree built', e);
-  
-})
 
-window.addEventListener('load', (e) => {
-  // console.log('Page Loaded', e);
-})
-// window.addEventListener('beforeunload', (e)=> {
-//   e.preventDefault();
-//   console.log(e);
-//   e.returnValue = '';
-//   alert('Are you sure??');
-// })
