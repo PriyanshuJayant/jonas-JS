@@ -43,10 +43,11 @@ a:visited {
 /* SIDEBAR */
 .sidebar {
   flex-basis: 50rem;
+  /* flex-basis: 1rem; */
   background-color: var(--color-dark--1);
-  padding: 3rem 5rem 4rem 5rem;
-  display: flex;
-  flex-direction: column;
+  padding: 3rem 2rem 4rem 2rem;
+  /* display: flex; */
+  /* flex-direction: column; */
 }
 
 .logo {
@@ -120,6 +121,8 @@ a:visited {
   margin-bottom: 1.75rem;
 
   display: grid;
+  /* display: flex; */
+  /* flex-direction: column; */
   grid-template-columns: 1fr 1fr;
   gap: 0.5rem 2.5rem;
 
