@@ -20,7 +20,6 @@ const countriesContainer = document.querySelector('.countries');
 
 // request.addEventListener('load', function () {
 //   const [data] = JSON.parse(this.responseText);
-//   console.log(data);
 
 //   // prettier-ignore
 //   const html = `
@@ -67,7 +66,6 @@ const renderCountry = function (data, className = '') {
 
 //   request.addEventListener('load', function () {
 //     const [data] = JSON.parse(this.responseText);
-//     console.log(data);
 
 //     // Render Country One
 //     renderCountry(data);
@@ -86,14 +84,14 @@ const renderCountry = function (data, className = '') {
 //       console.log(data2);
 
 //       renderCountry(data2, 'neighbor');
-      
+
 //     })
 //   });
 // };
 // // getCountryAndNeighbor('portugal');
 // getCountryAndNeighbor('bhu');
 
-// ? Old Method 
+// ? Old Method
 
 // const request = new XMLHttpRequest();
 // request.open('GET', `https://restcountries.com/v2/name/${country}`);
@@ -101,7 +99,51 @@ const renderCountry = function (data, className = '') {
 
 // ?New Method
 
-const request = fetch('https://restcountries.com/v2/name/portugal');
-console.log(request);
+// const request = fetch('https://restcountries.com/v2/name/portugal');
+// console.log(request);
 
- 
+// const getCountryData = function (country) {
+//   fetch(`https://restcountries.com/v2/name/${country}`)
+//     .then(function (response) {
+//       console.log(response);
+//       return response.json();
+//     })
+//     .then(function (data) {
+//       console.log(data);
+//       renderCountry(data[0])
+//     });
+// };
+// getCountryData('portugal');
+
+// ? AJAX single country
+
+// const getCountryData = function (country) {
+//   fetch(`https://restcountries.com/v2/name/${country}`)
+//     .then(response => response.json())
+//     .then(data =>  renderCountry(data[0]));
+// };
+// getCountryData('portugal');
+
+// ? AJAX Neighbouring countrys
+
+
+const getCountryData = function (country) {
+
+  // Country One
+  fetch(`https://restcountries.com/v2/name/${country}`)
+    .then(response => response.json())
+    .then(data => {
+      renderCountry(data[0]);
+      const neighbour = data[0].borders?.[0];
+
+      if (!neighbour) return;
+
+      console.log(...data);
+
+      // Country 2
+      return fetch(`https://restcountries.com/v2/alpha/${neighbour}`)
+    })
+      .then(response => response.json())
+      .then(data => renderCountry(data, 'neighbour'));
+};
+getCountryData('portugal');
