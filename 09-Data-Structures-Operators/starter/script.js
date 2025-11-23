@@ -49,10 +49,18 @@ const restaurant = {
 
 
 
-const arr = [7, 8, 9, 10];
-const arr2 = [1, 2, arr[0], arr[1], arr[2]];
+// const arr = [7, 8, 9, 10];
+// const arr2 = [1, 2, arr[0], arr[1], arr[2]];
 // console.log(arr2);
 
-const arr3 = [1, 2, ...arr];
-console.log(arr3);
-console.log(...arr3);
+// const arr3 = [1, 2, ...arr];
+// console.log(arr3);
+// console.log(...arr3);
+
+
+// Spread, because on RIGHT side of = 
+const arr = [1,2, ...[3,4]];
+
+const [a,b, ...others] = [1,2,3,4,5];
+
+ 
