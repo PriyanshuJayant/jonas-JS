@@ -84,3 +84,6 @@ const entries = Object.entries(openingHours);
 for( const [key, {open, close}] of entries){
   console.log(`One ${key} we open at ${open} and Close at ${close}`);
 }
+
+
+// Alias Testing
