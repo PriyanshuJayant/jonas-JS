@@ -328,16 +328,16 @@ const whereAmI = async function (country) {
       `https://api.bigdatacloud.net/data/reverse-geocode-client?latitude=${lat}&longitude=${lng}`
     )
     if (!resGeo.ok) throw new Error('Problem Getting location data');
-    
+
     const dataGeo = await resGeo.json();
-    
+
     const res = await fetch(`https://restcountries.com/v2/name/${dataGeo.countryName}`);
     if (!res.ok) throw new Error('Problem Getting location data');
     const data = await res.json();
-    console.log(data);
+    // console.log(data);
     renderCountry(data[1])
-    console.log(dataGeo);
-    
+    // console.log(dataGeo);
+
     return `You are in ${dataGeo.city}, ${dataGeo.countryName}`
   }
   catch (err) {
@@ -361,9 +361,85 @@ console.log('1. Will get Location');
 (async () => {
   try {
     const city = await whereAmI();
-    console.log("2: ",city)
+    // console.log("2: ", city)
   } catch (error) {
     console.error("2: ", err.message);
   }
-  console.log(`3: Finished Getting Data`)
+  // console.log(`3: Finished Getting Data`)
 })()
+
+// Self testing //
+// async function call(countryName) {
+//   try {
+//     const cntData = await fetch(`https://restcountries.com/v3.1/name/${countryName}`);
+//     const dataJSON = await cntData.json();
+//     return dataJSON;
+//   } catch (error) {
+//     console.log(error.message);
+//   }
+// }
+
+// console.log(`Country : `);
+// // (async () => {
+// //   try {
+// //     const data20 = await call('australia');
+// //     console.log(data20[0]);
+// //   } catch (error) {
+// //     console.log(error.message);
+// //   }
+// // })();
+// // call('india').then(res => console.log(res[1]), err => console.log(err.message));
+
+// const call2 = async function multiple(c1, c2) {
+//     const data1 = call(c1);
+//     const data2 = call(c2);
+//   return [data1, data2];
+//     // call(c3).then(res => console.log(res[0]), err => console.log(err.message));
+// }
+
+// (async() => {
+//   const [c1, c2] = await call2('germany', 'france');
+//   console.log(c1[0]);
+//   console.log(c2[0]);
+// })();
+
+const get3Countries = async function (c1, c2, c3) {
+  try {
+    const results = await Promise.all([
+      getJSON(`https://restcountries.com/v2/name/${c1}`).catch(err => console.log(err.message, 'From ', c1, ' Please Enter Correct Country Name')),
+      getJSON(`https://restcountries.com/v2/name/${c2}`).catch(err => console.log(err.message, 'From ', c2, ' Please Enter Correct Country Name')),
+      getJSON(`https://restcountries.com/v2/name/${c3}`).catch(err => console.log(err.message, 'From ', c3, ' Please Enter Correct Country Name'))
+    ]);
+
+    const countries = [c1, c2, c3];
+    console.log(results.map(d => `${d[0].name}'s Capital : ${d[0].capital}`));
+    // console.log(countries);
+
+
+  } catch (error) {
+    console.log(error.message);
+  }
+}
+get3Countries('portugal', 'canada', 'india');
+
+
+// Promise.race
+(async function () {
+  const res = await Promise.race([
+    getJSON(`https://restcountries.com/v2/name/italy`),
+    getJSON(`https://restcountries.com/v2/name/egypt`),
+    getJSON(`https://restcountries.com/v2/name/mexico`)
+  ]);
+  console.log(res[0].name);
+})()
+
+const timeout = function (sec){
+  return new Promise(function(_, reject){
+    setTimeout(function(){
+      reject(new Error('Request took too long!'));
+    }, sec * 1000)
+  })
+}
+Promise.reject([
+  getJSON(`https://restcountries.com/v2/name/tanzania`), timeout(1)
+]).then(res => console.log(res[0])).catch(err => console.error(err));
