@@ -85,5 +85,3 @@ for( const [key, {open, close}] of entries){
   console.log(`One ${key} we open at ${open} and Close at ${close}`);
 }
 
-
-// Alias Testing 3
