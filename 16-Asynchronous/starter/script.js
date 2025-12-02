@@ -433,13 +433,47 @@ get3Countries('portugal', 'canada', 'india');
   console.log(res[0].name);
 })()
 
-const timeout = function (sec){
-  return new Promise(function(_, reject){
-    setTimeout(function(){
+const timeout = function (sec) {
+  return new Promise(function (_, reject) {
+    setTimeout(function () {
       reject(new Error('Request took too long!'));
     }, sec * 1000)
   })
 }
-Promise.reject([
-  getJSON(`https://restcountries.com/v2/name/tanzania`), timeout(1)
-]).then(res => console.log(res[0])).catch(err => console.error(err));
+Promise.race([
+  getJSON(`https://restcountries.com/v2/name/tanzania`)
+])
+  .then(res => console.log(res[0]))
+  .catch(err => console.error(err));
+
+
+// Promise.allSettled
+Promise.allSettled([
+  Promise.resolve('Success'),
+  Promise.reject('Error'),
+  Promise.resolve('Another Success')
+]).then(res => console.log(res))
+
+Promise.all([
+  Promise.resolve('Success'),
+  Promise.reject('Error'),
+  Promise.resolve('Another Success')
+]).then(res => console.log(res))
+  .catch(err => console.error(err));
+
+
+
+
+// !Promise.all - to get the first settled promise, this means if one promise rejects, the whole promise rejects
+// !Promise.race - to get the first fulfilled promise, this means if one promise rejects first, the whole promise rejects
+// !Promise.allSettled - to get the results of all promises whether they are fulfilled or rejected, this means it never short circuits
+// !Promise.any - to get the first fulfilled promise, this means it ignores rejected promises
+
+// Promise.any [ES2021 feature]
+
+Promise.any([
+  Promise.resolve('Success'),
+  Promise.reject('Error'),
+  Promise.resolve('Another Success')
+]).then(res => console.log(res))
+  .catch(err => console.error(err));
