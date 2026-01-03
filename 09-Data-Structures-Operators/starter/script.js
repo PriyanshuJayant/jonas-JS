@@ -66,22 +66,175 @@ const openingHours = {
 }
 
 // Property Names
-console.log('Keys: ', Object.keys(openingHours));
+// console.log('Keys: ', Object.keys(openingHours));
 const properties = Object.keys(openingHours);
 let openStr = `We are Open on ${properties.length} days : `;
-for(const day of properties){
+for (const day of properties) {
   openStr += `${day}, `
 }
-console.log(openStr);
+// console.log(openStr);
 
 const values = Object.values(openingHours);
-console.log('Values: ',values);
+// console.log('Values: ', values);
 
 //  Entire Object
 const entries = Object.entries(openingHours);
 // console.log("Entries: ", entries);
 
-for( const [key, {open, close}] of entries){
-  console.log(`One ${key} we open at ${open} and Close at ${close}`);
+for (const [key, { open, close }] of entries) {
+  // console.log(`One ${key} we open at ${open} and Close at ${close}`);
 }
 
+
+const game = {
+  team1: 'Bayern Munich',
+  team2: 'Borrussia Dortmund',
+  players: [
+    [
+      'Neuer',
+      'Pavard',
+      'Martinez',
+      'Alaba',
+      'Davies',
+      'Kimmich',
+      'Goretzka',
+      'Coman',
+      'Muller',
+      'Gnarby',
+      'Lewandowski',
+    ],
+    [
+      'Burki',
+      'Schulz',
+      'Hummels',
+      'Akanji',
+      'Hakimi',
+      'Weigl',
+      'Witsel',
+      'Hazard',
+      'Brandt',
+      'Sancho',
+      'Gotze',
+    ],
+  ],
+  score: '4:0',
+  scored: ['Lewandowski', 'Gnarby', 'Lewandowski', 'Hummels'],
+  date: 'Nov 9th, 2037',
+  odds: {
+    team1: 1.33,
+    x: 3.25,
+    team2: 6.5,
+  },
+};
+// challange #2
+
+// 1
+for (let [i, players] of game.scored.entries()) {
+  // console.log(`Goal ${i + 1}: ${players}`);
+}
+
+// 2
+// const avgOdd = game.odds.entries().reduce((sum, current) => { sum + current, 0 }) / game.odds.length;
+// console.log(avgOdd)
+
+// const odds = Object.values(game.odds);
+// const average = odds.reduce((sum, current) => sum + current, 0) / odds.length;
+// console.log(average);
+
+for (const [team, odd] of Object.entries(game.odds)) {
+  // console.log(team, odd);
+
+}
+
+
+
+
+
+// challange #1
+// // 1
+// const [players1, players2] = game.players;
+// // console.log(players1, players2);
+
+// // 2
+// const [gk, ...fieldPlayers] = players1;
+// // console.log(gk, fieldPlayers);
+
+// // 3
+// const allPlayers = [...players1, ...players2];
+// // console.log(allPlayers);
+
+// // 4
+// const players1Final = [...players1, 'Thiago', 'Coutino', 'Peristic'];
+
+// // 5
+// const { odds: { team1, x: draw, team2 } } = game;
+// console.log(team1, draw, team2);
+
+// // 6
+// const printGoals = function(...players){
+//   // console.log(`${players.length} goals were scored`);
+
+// }
+// // printGoals('Lewandowski', 'Gnarby', 'Lewandowski', 'Hummels');
+// // printGoals('Lewandowski', 'Gnarby') 
+
+const question = new Map([
+  ['question', 'what is the best programming language in the world?'],
+  [1, 'C'],
+  [2, 'Java'],
+  [3, 'JavaScript'],
+  [4, 'Rust'],
+  [5, 'Python'],
+  [6, 'Golang'],
+  ['correct', 3],
+  [true, 'Correct'],
+  [false, 'Try again']
+])
+
+// console.log(question)
+
+// Convert Object to MAP
+// console.log(Object.entries(openingHours));
+const hoursMap = new Map(Object.entries(openingHours));
+// console.log(hoursMap);
+
+// console.log(question.get('question'))
+for (const [key, value] of question) {
+  if (typeof key === 'number') {
+    // console.log(`Answer: ${key}: ${value}`)
+  }
+}
+
+// const answer = Number(prompt('Your Answer: '));
+// console.log(answer)
+
+// const gameEvents = new Map([
+//   [17, 'Goal'],
+//   [36, 'Substitution'],
+//   [47, 'Goal'],
+//   [61, 'Substitution'],
+//   [64, 'Yellow Card'],
+//   [69, 'Red Card'],
+//   [70, 'Substitution'],
+//   [72, 'Substitution'],
+//   [76, 'Goal'],
+//   [80, 'Goal'],
+//   [92, 'Yellow Card'],
+// ])
+
+// // 1
+// const events = [...new Set(gameEvents.values())]
+// console.log(events)
+
+// // 2
+// gameEvents.delete(64);
+
+// // 3
+// console.log(90 / gameEvents.size);
+
+
+const airline = 'Indigo Aitlines';
+const plane = 'A320';
+
+plane.toLowerCase();
+// console.log(plane[0])
