@@ -19,7 +19,7 @@ body {
   font-family: "Poppins", sans-serif;
   color: #efefef;
   /* background-color: #f3f3f3; */
-  background-color: #000000;
+  background-color: white;
 
   height: 100vh;
   padding: 2rem;
@@ -35,6 +35,7 @@ nav {
 .welcome {
   font-size: 1.9rem;
   font-weight: 500;
+  color: #333;
 }
 
 .logo {
@@ -55,17 +56,17 @@ nav {
   border-radius: 10rem;
   margin-right: 1rem;
   color: black;
-  border: 1px solid #fff;
+  border: 1px solid #9a9a9a;
   transition: all 0.3s;
 }
 
 .login__input:focus {
   outline: none;
-  border: 1px solid #ccc;
+  border: 1px solid #afafaf;
 }
 
 .login__input::placeholder {
-  color: #bbb;
+  color: #9b9b9b;
 }
 
 .login__btn {
