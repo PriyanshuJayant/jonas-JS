@@ -169,3 +169,59 @@ main {
 .hidden {
   display: none;
 }
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 65em) { /* 1040px */
+  html {
+    font-size: 50%; /* 1rem = 8px */
+  }
+}
+
+@media (max-width: 48em) { /* 768px */
+  main {
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    border-radius: 0;
+  }
+  
+  .player {
+    padding: 3rem;
+    padding-top: 8rem;
+  }
+  
+  .player--1 {
+    padding-top: 3rem;
+  }
+  
+  .btn {
+    font-size: 1.6rem;
+    padding: 0.8rem 2rem;
+  }
+  
+  .btn--new {
+    top: 2rem;
+  }
+  
+  .btn--roll {
+    top: auto;
+    bottom: 9rem;
+  }
+  
+  .btn--hold {
+    top: auto;
+    bottom: 3rem;
+  }
+  
+  .dice {
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 8rem;
+  }
+}
+
+@media (max-width: 25em) { /* 400px */
+  html {
+    font-size: 45%; 
+  }
+}
